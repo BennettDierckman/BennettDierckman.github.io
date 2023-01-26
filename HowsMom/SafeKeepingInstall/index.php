@@ -1,0 +1,311 @@
+<?php
+    require 'php/db.php';
+    session_start();
+    if(isset($_SESSION['faqMessage'])){
+        $faqMessage = $_SESSION['faqMessage'];
+    }
+?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>SafeKeeping App</title>    
+        <!-- FAVICON -->
+        <link rel="icon" type="image/png" href="images/fav.png">
+        <link rel="shortcut icon" type="image/png" href="images/fav.png">
+
+        <!-- Plugins CSS -->
+        <link href="css/plugins/plugins.css" rel="stylesheet">
+        <link href="linearicons/fonts.css" rel="stylesheet">
+        <link href="css/style-mobile-app.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body data-spy="scroll" data-target="#mobile-app-navbar" data-offset="87">
+        <div id="preloader">
+            <div id="preloader-inner"></div>
+        </div><!--/preloader-->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-transparent-light navbar-sticky">
+            <div class="container">
+                <a class="navbar-brand" data-scroll href="#">
+                    <div class="navbar-img">
+                        <img src="images/capitalHorizontalLogo.png" style="max-width: 100%; max-height: 100%;">
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-app-navbar" aria-controls="mobile-app-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mobile-app-navbar">
+                    <ul class="navbar-nav ml-auto">
+                        <!-- <li class="nav-item">
+                            <a class="nav-link active" data-scroll href="#home">Home</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll href="#apple">iPhone Users</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll href="#android">Android Users</a>
+                        </li>          
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll href="#faqs">Faqs</a>
+                        </li>
+                        <!-- <li class="nav-item d-none d-lg-block">
+                            <a class="nav-link" data-scroll href="#testimonials">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll href="#facilities">Facilities</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-primary" data-scroll href="community.php">SafeKeeping Community</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="home" class="hero-gradient-light gradient-light">
+            <div class="container">
+                <div class="row align-items-center aboveFold mt-3 mt-lg-5">
+                    <div class="col mr-auto ml-auto pb50">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 ml-lg-auto mr-lg-auto">
+                                <div class="bridgeImg">
+                                    <img src="images/fav.png" alt="bridgeIcon"/ style="max-width: 100%; max-height: 100%">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <h1 class="mb20 text-center"><span class="text-primary text-shadow" style="font-size: 135%">Bridge the Gap.<br></span> Install the <span class="text-primary" style="font-size: 135%"><strong>Safe</strong>Keeping App!</span></h1>
+                                <p class=" mb30 lead text-dark-gray text-center">
+                                    <span class="d-md-none">Help <span class="font500">bridge the gap</span> with Patient-Centric LTC Communication.</span>
+                                    <span class="d-none d-md-block text-secondary">SafeKeeping provides real-time updates on your loved one&rsquo;s health via our free app.</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="platformButtons">
+                            <a href="#apple" data-scroll class="btn btn-iphone-outline my-3"><i class="fa fa-apple" style="font-size: 120%;"></i>Apple Users</a>
+                            <a href="#android" data-scroll class="btn btn-android-outline my-3"><i class="fa fa-android" style="font-size: 120%;"></i>Android Users</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section><!--hero-->
+        <section id="apple" class=" gradient-white">
+            <div class="container pt50 pb70">  
+                <h3 class="section-title">Apple Installation Instructions</h3>
+                <div class="stepsContainer container mt-5 pt-4">
+                    <div class="row">
+                        <!-- process step -->
+                        <div class="col-lg-4 col-md-9 ml-auto mr-auto">
+                            <div class="process-item2 py-xl-4 pt-5 px-4 rounded border position-relative ml-auto mr-auto">
+                                <div class="process-item-number">1</div>
+                                <div class="processImg">
+                                    <img src="images/step1-2.png" alt="" style="max-width: 100%; max-height:100%;">
+                                </div>
+                                <h4 class="text-primary mt-4">Step 1</h4>
+                                <p>In the Safari Browser, go to <a href="https://app.safekeepingapp.com" target="_blank"> app.safekeepingapp.com</a>. Once there, <span class="font600">tap the &lsquo;Share&rsquo; icon</span> (box with up-arrow) in the bottom middle of the screen.</p>
+                            </div>
+                        </div>
+                        <!-- process step -->
+                        <div class="col-lg-4 col-md-9 ml-auto mr-auto">
+                            <div class="process-item2 py-xl-4 pt-5 px-4 rounded border position-relative ml-auto mr-auto">
+                                <div class="process-item-number">2</div>
+                                <div class="processImg">
+                                    <img src="images/step2-2.png" alt="" style="max-width: 100%; max-height:100%;">
+                                </div>
+                                <h4 class="text-primary mt-4">Step 2</h4>
+                                <p>Next, slide through the Menu&rsquo;s row of Grey Icons above the &lsquo;Cancel&rsquo; Button and <span class="font600">tap the &ldquo;Add to Home Screen&rdquo; option</span>.</p>
+                            </div>
+                        </div>
+                        <!-- process step -->
+                        <div class="col-lg-4 col-md-9 ml-auto mr-auto">
+                            <div class="process-item2 py-xl-4 pt-5 px-4 rounded border position-relative ml-auto mr-auto">
+                                <div class="process-item-number">3</div>
+                                <div class="processImg">
+                                    <img src="images/step3-2.png" alt="" style="max-width: 100%; max-height:100%;">
+                                </div>
+                                <h4 class="text-primary mt-4">Step 3</h4>
+                                <p>Lastly, name the shortcut &rdquo;SafeKeeping&ldquo; and <span class="font600">tap the "Add" option</span> in the screen&rsquo;s upper right coner.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="android" class="hero-gradient-white gradient-white">
+            <div class="container pt10 pb70">  
+                <h3 class="section-title">Android Installation Instructions</h3>
+                <div class="stepsContainer container mt-5 pt-4">
+                    <div class="row">
+                        <!-- process step -->
+                        <div class="col-lg-4 col-md-9 ml-md-auto mr-md-auto mb-md-50">
+                            <div class="process-item2 py-xl-4 pt-5 px-4 rounded border position-relative ml-auto mr-auto">
+                                <div class="process-item-number">1</div>
+                                <div class="processImg">
+                                    <img src="images/androidStep1-2.png" alt="" style="max-width: 100%; max-height:100%;">
+                                </div>
+                                <h4 class="text-primary mt-4">Step 1</h4>
+                                <p>In the Google Chrome Browser, go to <a href="https://app.safekeepingapp.com" target="_blank"> app.safekeepingapp.com</a>. Once there, <span class="font600">tap the &lsquo;More&rsquo; icon</span> (three vertical dots) the top right of the screen.</p>
+                            </div>
+                        </div>
+                        <!-- process step -->
+                        <div class="col-lg-4 col-md-9 ml-md-auto mr-md-auto mb-md-50">
+                            <div class="process-item2 py-xl-4 pt-5 px-4 rounded border position-relative  ml-auto mr-auto">
+                                <div class="process-item-number">2</div>
+                                <div class="processImg">
+                                    <img src="images/androidStep2-2.png" alt="" style="max-width: 100%; max-height:100%;">
+                                </div>
+                                <h4 class="text-primary mt-4">Step 2</h4>
+                                <p>Next, slide through the drop-down Menu&rsquo;s list of available options and <span class="font600">tap the &ldquo;Add to Home Screen&rdquo; option</span>.</p>
+                            </div>
+                        </div>
+                        <!-- process step -->
+                        <div class="col-lg-4 col-md-9 ml-md-auto mr-md-auto mb-md-50">
+                            <div class="process-item2 py-xl-4 pt-5 px-4 rounded border position-relative ml-auto mr-auto">
+                                <div class="process-item-number">3</div>
+                                <div class="processImg">
+                                    <img src="images/androidStep3-2.png" alt="" style="max-width: 100%; max-height:100%;">
+                                </div>
+                                <h4 class="text-primary mt-4">Step 3</h4>
+                                <p>Lastly, name the shortcut &rdquo;SafeKeeping&ldquo; and <span class="font600">tap the "Add" option</span> in the screen&rsquo;s bottom right coner.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="faqs" class="pt-lg-3 pb-lg-5">
+            <div class="container pt50 pb20">
+                <h3 class="section-title mb30">Frequently Asked Questions</h3>
+                <div class="row">
+                    <div class="col-md-6 mb-5 mb-lg-0 wow fadeInUp" data-wow-delay=".1s">
+                        <h5 class="mb10">What is SafeKeeping <i class="icon-bubble-question"></i></h5>
+                        <p class="mb-0">
+                             SafeKeeping is a family engagement dashboard that allows you to monitor the health and wellness of your loved one
+                        </p>
+                    </div>
+                    <div class="col-md-6 mb-5 mb-lg-0 mr-lg-auto wow fadeInUp" data-wow-delay=".1s">
+                        <h5 class="mb-0"> How do I register for the SafeKeeping App <i class="icon-bubble-question"></i></h5>
+                        <p class="mb-0">
+                            To register for the SafeKeeping App, visit your facilitie&rsquo;s admissions or social services where you will receive an SMS invite to be granted access and complete registration
+                        </p>
+                    </div>
+                    <div class="col-md-6 mb-5 mb-lg-0 wow fadeInUp mt-md-5" data-wow-delay=".1s">
+                        <h5 class="mb10">Is SafeKeeping in the App Store <i class="icon-bubble-question"></i></h5>
+                        <p class="mb-0">
+                            SafeKeeping is a web based application meaning you can access it via URL once enrolled, and can install it on any device 
+                        </p>
+                    </div>
+                    <div class="col-md-6 mb-5 mb-lg-0 wow fadeInUp ml-lg-auto mt-md-5" data-wow-delay=".1s">
+                        <h5 class="mb-0">How do I get to my SafeKeeping Dashboard <i class="icon-bubble-question"></i></h5>
+                        <p class="mb-0">
+                            Utilize any connected device by your preferred browser and going to <a href="https://app.safekeepingapp.com" target="_blank">app.safekeepingapp.com</a>
+                        </p>
+                    </div>
+                    <div class="col-md-6 mb-5 mb-lg-0 wow fadeInUp ml-lg-auto mr-lg-auto mt-md-5" data-wow-delay=".1s">
+                        <h5 class="mb10">Have your own question <i class="icon-bubble-question"></i></h5>
+                        <form method="post" action="php/askQuestion.php">
+                            <div class="form-group mb-1">
+                                <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Enter email" required>
+                            </div>
+                            <div class="form-group mb-0">
+                                <textarea class="form-control" name="question" placeholder="Type Question" rows="3" required></textarea>
+                            </div>
+                            <input type='hidden' name='callingPage' value='installPage'>
+                            <button type="submit" class='btn btn-outline-orange mt-1' style="width: 100%; font-style: italic;">Send</button>
+                            <?php
+                                if ($faqMessage!='') {
+                                    echo "<p class='mt-2 mb-2 mb-md-0 text-center color-primary' style='font-size: 120%; font-style: italic;'>".$faqMessage."</p>";
+                                    $_SESSION['faqMessage'] = '';
+                                }
+                            ?> 
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <footer class="gradient-up2">
+                <div class="bg-parallax pt-md-2" data-jarallax='{"speed": 0.2}' style='background-image: url("images/bricks.jpg"); background-size: cover; background-repeat:none;'>
+                <div class="parallax-overlay"></div>
+                    <div class="container">
+                        <div class="row pt-4 mb-4" id="contact">
+                            <div class="footerChunk social-buttons col-sm-5 col-md-4 mb-3 mb-lg-0">
+                                <h3 class=" mb10">Connect with us</h3>
+                                <span class="socialMediaSpan">
+                                    <div>
+                                        <a href="https://www.facebook.com/safekeepingllc/" target="_blank" class="social-icon si-dark si-facebook si-dark-round">
+                                            <i class="fa fa-facebook"></i>
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                        <a href="https://twitter.com/Safekeeping_App" target="_blank" class="social-icon si-dark si-twitter si-dark-round">
+                                            <i class="fa fa-twitter"></i>
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                        <a href="https://www.youtube.com/watch?v=0v4wdFEnmTU" target="_blank" class="social-icon si-dark si-g-plus si-dark-round">
+                                            <i class="fa fa-youtube"></i>
+                                            <i class="fa fa-youtube"></i>
+                                        </a>
+                                        <a href="https://www.linkedin.com/company/safekeeping-llc/" target="_blank" class="social-icon si-dark si-skype si-dark-round">
+                                            <i class="fa fa-linkedin"></i>
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                    </div>
+                                </span>
+                            </div>
+                            <div class="footerChunk social-buttons col-sm-3 col-md-4 mb-3 mb-lg-0">
+                                <h3 class=" mb10">Contact us</h3>
+                                <span class="socialMediaSpan">
+                                    <div>
+                                        <a href="tel:888-752-7575" target="_blank" class="social-icon si-dark si-skype si-dark-round">
+                                            <i class="fa fa-phone"></i>
+                                            <i class="fa fa-phone"></i>
+                                        </a>
+                                        <a href="mailto:inquiries@safekeepingapp.com" target="_blank" class="social-icon si-dark si-skype si-dark-round">
+                                            <i class="fa fa-envelope"></i>
+                                            <i class="fa fa-envelope"></i>
+                                        </a>
+                                    </div>
+                                </span>
+                            </div>
+                            <div class='footerChunk col-sm-4 '>
+                                <h3 class=" mb-0">Learn More</h3>
+                                <ul class="mb0" style="list-style: none; padding-left:0;">
+                                    <li><a class='text-white' href="privacyPolicy.pdf" target="_blank" style="width: 100%; text-decoration:underline;">Privacy Policy</a></li>
+                                    <li><a class='text-white' href="termsAndConditions.pdf" target="_blank" style="width: 100%; text-decoration:underline;">Terms of Use</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row mx-auto py-lg-4">
+                            <div class="col-12 copyright d-lg-none">
+                                <span style="color: #FFF">&copy; SafeKeeping 2019</span>
+                            </div>
+                            <!-- <div class="col-12 col-lg-4 text-lg-left">
+                                <span style="color: #FFF"><a href="privacyPolicy.pdf" target="_blank" style="text-decoration: underline; color:#fff">Privacy Policy</a></span>
+                            </div> -->
+                            <div class="col-12 copyright d-none d-lg-block text-lg-center">
+                                <span style="color: #f2f3f7">&copy; SafeKeeping 2019</span>
+                            </div>
+                            <!-- <div class="col-12 col-lg-4 text-lg-right">
+                                <span style="color: #FFF"><a href="termsAndConditions.pdf" target="_blank" style="text-decoration: underline; color:#fff;">Terms of Use</a></span>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+        </footer>
+        <!--back to top-->
+        <a href="#" class="back-to-top" id="back-to-top"><i class="icon-chevron-up"></i></a>
+        <!-- jQuery first, then Tether, then Bootstrap JS. -->
+        <script type="text/javascript" src="js/plugins/plugins.js"></script> 
+        <!--tweet-scroller-->
+        <script src="tweetie/tweetie.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/mobileApp.custom.js"></script>
+        <script type="text/javascript" src="js/landing.custom.js"></script>  
+    </body>
+</html>
