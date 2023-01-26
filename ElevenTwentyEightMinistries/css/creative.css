@@ -1,0 +1,991 @@
+@import url('https://fonts.googleapis.com/css?family=Marck+Script&display=swap');
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #F05F40;
+}
+
+hr.light {
+  border-color: #E0E2DB;
+}
+
+a {
+  color: #F05F40;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.bibleQuote{
+  font-family: 'Marck Script', cursive;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+a:hover {
+  color: #f05f40;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.pastorParidiseTitle{
+  margin-bottom: 270px;
+}
+
+.carousel-item img{
+  max-width: 100%;
+  margin: auto auto;
+  border-radius: 5px !important;
+}
+
+.carousel-item{
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+}
+.carousel-item.active{
+  display: flex;
+  align-items:center;
+}
+.carousel-indicators{
+  display: none;
+  margin-bottom: 1%;
+}
+
+.carousel-control-next-icon{
+  background-color:#F05F40 !important;
+  border-radius:25%;
+}
+.carousel-control-prev-icon{
+  background-color:#F05F40 !important;
+  border-radius:25%;
+}
+
+  .outreachLogo{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.locationList{
+  margin-top: 10px !important;
+  padding-bottom: 10px !important;
+  width:83%;
+  margin: 0 auto;
+}
+.locationList h4{
+  font-size: 1.5rem;
+}
+.locationList li p{
+  font-size: .82rem;
+  margin-bottom: 8px;
+}
+.locationList ul{
+  padding-left: 5px;
+}
+.overlay {
+  position: relative;
+}
+.overlay::before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #E0E2DB;
+  opacity: .3;
+}
+.locations {
+  background-image: url("../img/cattails.png");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 93vh !important;
+}
+  .location{
+    background-color: rgba(224,226,219, .92);
+    padding: 5px;
+    color: #2F4858!important;
+    border: 5px solid #F05F40 !important;
+    border-radius: 10px;
+  }
+.bg-primary {
+  background-color: #F04A00 !important;
+}
+
+.bg-dark {
+  background-color: #2F4858 !important;
+}
+.bg-light{
+  background-color: #E0E2DB !important;
+}
+
+.text-faded {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+section {
+  padding: 4rem 0;
+}
+
+.section-heading {
+  margin-top: 0;
+}
+
+::-moz-selection {
+  color: #E0E2DB;
+  background: #212529;
+  text-shadow: none;
+}
+
+::selection {
+  color: #E0E2DB;
+  background: #212529;
+  text-shadow: none;
+}
+
+img::selection {
+  color: #E0E2DB;
+  background: transparent;
+}
+
+img::-moz-selection {
+  color: #E0E2DB;
+  background: transparent;
+}
+
+#mainNav {
+  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+  background-color: #E0E2DB;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #F05F40;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #f05f40;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+  font-size: .9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #212529;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+  color: #F05F40;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+  color: #F05F40 !important;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+  background-color: transparent;
+}
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("../img/smoky2.png");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bennettSnapshot{
+    display: flex;
+    align-items: center;
+  }
+.coolorBack {
+  height:93vh !important;
+  display: flex;
+  align-items: center;
+  background-image: url("../img/coolors.png");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header.masthead hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+header.masthead h1 {
+  font-size: 1.75rem;
+}
+
+header.masthead p {
+  font-weight: 300;
+}
+.service-box {
+  max-width: 400px;
+}
+
+.portfolio-box {
+  position: relative;
+  display: block;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.portfolio-box .portfolio-box-caption {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  opacity: 0;
+  color: #E0E2DB;
+  background: rgba(240, 95, 64, 0.9);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  padding: 0 15px;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  font-size: 18px;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
+
+.portfolio-box:focus {
+  outline: none;
+}
+
+.text-primary {
+  color: #F05F40 !important;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 300px;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn-primary {
+  background-color: #F05F40;
+  border-color: #F05F40;
+}
+
+/*.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  color: #E0E2DB;
+  background-color: #ee4b28 !important;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}*/
+
+.bennettSnapshot{
+  border-radius: 25px;
+/*  color: #A5B452;
+*/}
+.bennettSnapshot ul{
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.bridgeButton{
+  width: 150px;
+ /* background: none;
+  border-top: none;
+  border-bottom: none;*/
+    background: 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 60px;
+    padding: 0 30px 0 25px;
+    position: relative;
+    transition: all .3s;
+    border: 4px solid #F04A00;
+/*    border-top: none;
+    border-bottom: none;*/
+    font-size: 1em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 0;
+    margin: 15px auto 0 auto;
+    color: #E0E2DB;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+.horizontalCenter{
+  display: flex;
+  align-items:center;
+}
+.bennettSnapshot a:hover{
+  text-decoration: none;
+}
+.bridgeButton:hover{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+.bridgeButton{
+  color: #E0E2DB !important;
+}
+  .bridgeButton::before {
+        content: '';
+        height: 100%;
+        width: 100%;
+        background: #F04A00;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transition: all .3s;
+        z-index: -1;
+    }
+         /*Slide in from left*/
+        .bridgeButton.left::before {
+            transform: translate(-100%, 0);
+        }
+            .bridgeButton.left:hover::before {
+                transform: translate(0, 0);
+            }
+.container2{
+/*  visibility: hidden;
+  height: 0;*/
+  width: 675px;
+  height: 325px;
+  background-color: rgba(193, 189, 179);
+  border-radius: 22.5px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border: 4px solid #F04A00;
+  margin: 0 auto;
+  color: #2F4858;
+  display: flex;
+  justify-content: center;
+  }
+.container2 p{
+  margin-bottom: 0;
+}
+
+.paintedLadies{
+  padding-top: 3.25rem;
+  padding-bottom: 3.25rem;
+  background-image: url("../img/paintedLadies.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.container2 h4{
+  font-size: 18px;
+}
+.tits h4{
+  text-decoration: underline;
+}
+#s1{
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #2F4858;
+}
+.smallSection{
+  padding: 3rem 0;
+}
+.quote p{
+  margin-bottom: 0;
+  font-size: 16px !important;
+}
+
+.profilePic{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.criminalInfo{
+  visibility: hidden;
+  height: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 0;
+}
+.educationInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding-left: 30px;
+}
+.criminalInfo p, .educationInfo p{
+  font-size: 15px;
+  padding: 2.5px 0;
+}
+.allInfo{
+  height: 90%;
+}
+.resumeButton{
+  margin-top: 7.5px;
+  float: right;
+  width: 125px;
+  text-align:center;
+}
+#about{
+  display: flex;
+  align-items: center;
+}
+.altName{
+  visibility: hidden;
+  height: 0;
+}
+.h4Sometimes{
+  font-size: 18px;
+}
+.resumeFrame{
+  padding: 10px 10px;
+}
+.bennettsResume{
+  background-color: #E0E2DB;
+  padding: 10px 10px;
+  border: 2px solid #F04A00;
+}
+.resume-header h1{
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.resume-header address, .resume-header p{
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.bennettsResume h4{
+  font-size: 20px;
+  margin-bottom: 4px;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+.bennettsResume p, .bennettsResume li{
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+.bennettsResume ul{
+  margin-bottom: 10px;
+}
+.sm-white{
+  background-color: #E0E2DB !important;
+}
+.downloadResume{
+  color: #F04A00 !important;
+}
+.downloadResume:hover{
+  color: #E0E2DB !important;
+}
+.bottomless{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.idName{
+  height: 0px;
+}
+.aboutBennett{
+  background-color: rgb(193, 189, 179);
+  border-radius: 22.5px;
+  padding: 10px;
+  border: 4px solid #F04A00;
+  color: #2F4858;
+  width: 74%;
+}
+.m-b-7{
+  margin-bottom: 7px;
+}
+.m-b-5{
+  margin-bottom: 5px;
+}
+.m-b-0{
+  margin-bottom: 0 !important;
+}
+.m-t-10{
+  margin-top: 10px;
+}
+.m-l-r-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+.smallLink{
+  font-size: .8rem;
+  color: #2F4858;
+  text-decoration: underline;
+}
+.normalHR{
+  max-width: 80%;
+  border-width: 1px;
+  border-color: #2F4858;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.aboutBennett h3{
+  font-size: 1.4rem;
+}
+.aboutBennett h4{
+  font-size: 1.15rem;
+}
+.aboutBennett p{
+  font-size: .8rem;
+}
+.Achievements h1{
+  font-size: 2rem;
+}
+.Achievements h4{
+  font-size: 1.25rem;
+}
+.Achievements p{
+  font-size: .8rem;
+}
+/*===========================================================================================================================================================*/
+@media (min-width: 576px) {
+  .criminalInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  visibility: visible;
+}
+.altName2{
+  visibility: hidden;
+  height: 0;
+}
+.altName{
+  visibility: visible;
+  height: 10%;
+}
+header.masthead h1 {
+    font-size: 2.01rem;
+  }
+.resumeFrame{
+  padding: 25px 25px 15px 25px;
+  border: 4px solid #F04A00;
+  border-radius: 10px;
+  background-color: #2F4858;
+}
+.bennettsResume{
+  border: 4px solid #F04A00;
+}
+.bennettsResume h4{
+  text-align: left;
+}
+.resume-achievements p{
+  text-align: center;
+}
+.sm-white{
+  background-color: #2F4858 !important;
+}
+.downloadResume{
+  color: #E0E2DB !important;
+}
+.downloadResume:hover{
+  color: #E0E2DB !important;
+}
+.smallLink{
+  font-size: .7rem;
+}
+}
+
+@media (min-width: 768px) {
+  .bibleQuote{
+    font-size: 30px;
+  }
+  .pastorParidiseTitle{
+    margin-bottom:0;
+  }
+  #mainNav .navbar-brand {
+    font-size: 18px;
+  }
+  .carousel-item{
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+  }
+  .coolorBack{
+    height: 95vh !important;
+  }
+  .outreachLogo{
+    width: 500px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .location{
+    border-radius: 15px !important;
+    padding: 15px;
+  }
+  .locations h1{ 
+    font-size: 3.2rem !important;
+  }
+  .locationList{
+    margin-top: 10px !important;
+    padding-bottom: 10px !important;
+    width:70%;
+    margin: 0 auto;
+  }
+  .location h3{
+    font-size: 2.2rem;
+  }
+  .location h5{
+    font-size: 1.6rem;
+  }
+  .locationList h4{
+    font-size: 1.75rem;
+  }
+  .locationList li p{
+    font-size: .95rem;
+    margin-bottom: 8px;
+  }
+  .locationList ul{
+    padding-left: 15px;
+  }
+  header.masthead {
+  padding-top: 7rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("../img/smokey3.png");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+  header.masthead h1 {
+    font-size: 2rem !important;
+  }
+  .bennettSnapshot{
+    display: flex;
+    align-items: center;
+  }
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    font-size: 16px;
+  }
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 22px;
+  }
+  .bridgeButton{
+    border-top: none;
+    border-bottom: none;
+  }
+  .container2{
+  visibility: visible;
+  width: 675px;
+  height: 325px;
+  background-color: rgba(193, 189, 179);
+  border-radius: 22.5px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border: 4px solid #F04A00;
+  margin: 0 auto;
+  color: #2F4858;
+  display: flex;
+  justify-content: center;
+  }
+.container2 p{
+  margin-bottom: 0;
+}
+.container3{
+  visibility: hidden;
+  height: 0;
+}
+
+.paintedLadies{
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-image: url("../img/paintedLadies2.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.tits h4{
+  text-decoration: underline;
+  font-size: 20px;
+  text-align: center;
+}
+#s1{
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #2F4858;
+  margin-left: auto;
+  margin-right: auto;
+}
+.smallSection{
+  padding: 3rem 0;
+}
+.quote p{
+  margin-bottom: 0;
+  font-size: 20px !important;
+}
+
+.profilePic{
+  padding-right:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.profilePic h4{
+  font-size: 22px;
+}
+
+.educationInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.criminalInfo p, .educationInfo p{
+  font-size: 15px;
+  padding: 2.5px 0;
+}
+.allInfo{
+  height: 90%;
+}
+.resumeButton{
+  margin-top: 0;
+  width: 200px;
+}
+.resume-header h1{
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.resume-header address, .resume-header p{
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.bennettsResume h4{
+  font-size: 22px;
+  margin-bottom: 4px;
+  margin-top: 15px;
+  text-decoration: underline;
+}
+.bennettsResume p, .bennettsResume li{
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+.bennettsResume ul{
+  margin-bottom: 10px;
+}
+
+.aboutBennett h3{
+  font-size: 1.75rem;
+}
+.aboutBennett h4{
+  font-size: 1.5rem;
+}
+.aboutBennett p{
+  font-size: 1rem;
+}
+.smallLink{
+  font-size: .9rem;
+}
+}
+/*--------------------------------------------------------------------*/
+@media (min-width: 992px) {
+
+  .bibleQuote{
+    font-size: 25px;
+    margin-bottom: 2%;
+  }
+  .locations {
+  background-image: url("../img/cattails1.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+  .location{
+    border-radius: 15px !important;
+    background-color: rgba(224,226,219, .92);
+    padding: 5px;
+    color: #2F4858!important;
+    border: 5px solid #F05F40 !important;
+
+  }
+  .locations h1{ 
+    font-size: 3.2rem !important;
+  }
+  .locationList{
+    margin-top: 10px !important;
+    padding-bottom: 10px !important;
+    width:75%;
+    margin: 0 auto;
+  }
+  .location h3{
+    font-size: 2.2rem;
+  }
+  .location h5{
+    font-size: 1.6rem;
+  }
+  .locationList h4{
+    font-size: 1.75rem;
+  }
+  .locationList li p{
+    font-size: .95rem;
+    margin-bottom: 8px;
+  }
+  .locationList ul{
+    padding-left: 15px;
+  }
+  header.masthead {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+header.masthead h1 {
+    font-size: 2.5rem !important;
+  }
+  #mainNav {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+  }
+  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    color: #E0E2DB;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link {
+    padding: 0.5rem 1rem;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #E0E2DB;
+  }
+  #mainNav.navbar-shrink {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: #E0E2DB;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #F05F40;
+  }
+  #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+    color: #f05f40;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: #212529;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #F05F40;
+  }
+  .bridgeButton{
+    width: 200px;
+  }
+  .container2{
+    margin-right: 50px;
+  }
+  .resumeFrame{
+  padding: 45px 45px 15px 45px;
+  border-radius: 10px;
+  }
+  .bennettsResume{
+    padding: 35px 35px;
+  }
+}
+/*--------------------------------------------------------------------*/
+@media (min-width: 1200px) {
+    .outreachLogo{
+    width: 650px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bibleQuote{
+    font-size: 27px;
+    margin-bottom: 2%;
+  }
+  header.masthead h1 {
+    font-size: 3rem !important;
+  }
+  .bennettsResume{
+    padding: 45px 45px;
+  }
+}
+/*--------------------------------------------------------------------*/
+
+

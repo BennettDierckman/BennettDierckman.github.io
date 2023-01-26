@@ -1,0 +1,1 @@
+CREATE TABLE Parties ( id int(7) NOT NULL AUTO_INCREMENT, title varchar(25) NOT NULL, password varchar(256) NOT NULL, demographic varchar(10) NOT NULL, radius varchar(10) NOT NULL, active varchar(1) NOT NULL DEFAULT '1', attending int(4) NOT NULL DEFAULT 1, attended int(4) NOT NULL DEFAULT 1, latitude float(10,6) NOT NULL, longitude float(10, 6) NOT NULL, PRIMARY KEY (id) )
