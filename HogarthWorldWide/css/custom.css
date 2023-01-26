@@ -1,0 +1,40 @@
+/*Font imports if any will be this very first line*/
+
+/*// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap*/
+
+.hero{
+	width:100%;   /*100% of the screens width*/
+	height: 50vh; /* 50% of the screens vertical height*/
+}
+
+.hero-image{
+	/*Centering the figure image*/
+	width: 100% !important;
+	height:100% !important;
+	background-position: 50%;
+	background-size: cover !important;
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+
+/*// Medium devices (tablets, 768px IPADS and up)*/
+@media (min-width: 768px) {
+	.hero{
+		width:50%;   /*50% of the screens width*/
+		height: 100vh; /* 100% of the screens vertical height*/
+		float: left; /*Brings Luna back into frame*/
+	}
+	.break:after{
+		display:block;
+		clear:both;
+		content:""
+	}
+ }
+
+/*// Large devices (desktops, 992px IPAD PRO and up)*/
+@media (min-width: 992px) { ... }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
