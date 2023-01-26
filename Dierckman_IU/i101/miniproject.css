@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+
+.intro{
+	height: 648px;
+	width: 350px;
+	border: solid;
+	border-color: #3F0;
+	border-width: thick;
+	position: absolute;
+	left: 45px;
+	top: 356px;
+	background-color: #999;
+	text-color: white;
+	font-family: "Comic Sans MS", cursive;
+	color: #FFF;
+	padding-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	z-index: 2;
+	font-size: 27px;
+	font-weight: bold;
+	text-align: center;
+	background-image: url(images/smiley.gif);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+}
+
+.background{
+	height: 2300px;
+	width: 1271px;
+	border: solid;
+	border-color: #000;
+	background-color: #000;
+	border-width: thick;
+	position: absolute;
+	left: -2px;
+	top: 1px;
+	z-index: -4;
+}
+
+.title{
+	height: 129px;
+	width: 683px;
+	border: solid;
+	border-color: #3FFF00;
+	border-width: thick;
+	background-color: #999;
+	position: absolute;
+	left: 278px;
+	top: 104px;
+	padding-top: 10px;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+	font-family: "Comic Sans MS", cursive;
+	color: #FFF;
+	font-size: 70px;
+	z-index: 1;
+	text-align: center;
+}
+.stripes{
+	height: 250px;
+	width: 1066px;
+	border: solid;
+	border-width: medium;
+	border-color: #40FF0B;
+	background-image: url(images/zebrastripes.jpg);
+	background-color: #FF0;
+	position: absolute;
+	left: 99px;
+	top: 50px;
+	z-index: 0;
+}
+.cognate1{
+	height: 700px;
+	width: 751px;
+	border: solid;
+	border-width: medium;
+	border-color: #40FF0B;
+	position: absolute;
+	left: 464px;
+	top: 352px;
+	color: #FFFFFF;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 27px;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+.cognate2{
+	height: 546px;
+	width: 751px;
+	border: solid;
+	border-width: medium;
+	border-color: #40ff0B;
+	position: absolute;
+	left: 466px;
+	top: 1116px;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 27px;
+	font-family: "Comic Sans MS", cursive;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+.stripes2{
+	height: 350px;
+	width: 350px;
+	border: solid;
+	border-width: medium;
+	border-color: #40FF0B;
+	background-image: url(images/zebrastripes.jpg);
+	background-color: #FF0;
+	position: absolute;
+	left: 60px;
+	top: 1318px;
+	z-index: 0;
+}
+.reference{
+	height: 605px;
+	width: 1183px;
+	position: absolute;
+	bord:solid;
+	border-width:thin;
+	border-color:#000;
+	left: 49px;
+	top: 1705px;
+	background-color: #000000;
+	font-size: 18px;
+	font-family: "Comic Sans MS", cursive;
+	color: #FFF;
+	text-align: left;
+	font-style: italic;
+	padding-left: 13px;
+	padding-right: 13px;
+}
+.link{
+	height: 191px;
+	width: 225px;
+	position: absolute;
+	left: 121px;
+	top: 1389px;
+	border: solid;
+	border-width: medium;
+	border-color: #40FF0B;
+	color: #FFF;
+	background-color: #999999;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.link h3 {
+	font-weight: bold;
+}

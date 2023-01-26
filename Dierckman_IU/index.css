@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+
+.background{
+	height: 1822px;
+	width: 1271px;
+	border: solid;
+	border-color: #000;
+	background-color: #000;
+	border-width: thick;
+	position: absolute;
+	left: 2px;
+	top: 25px;
+	z-index: 0;
+}
+
+.title{
+	height: 227px;
+	width: 904px;
+	border: solid;
+	border-color: #3FFF00;
+	border-width: thick;
+	background-color: #999;
+	position: absolute;
+	left: 182px;
+	top: 60px;
+	padding-top: 12px;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+	font-family: "Comic Sans MS", cursive;
+	color: #FFF;
+	font-size: 70px;
+	z-index: 1;
+	text-align: center;
+}
+
+.name{
+	height: 62px;
+	width: 575px;
+	border: solid;
+	border-color: #3FFF00;
+	background-color: #999;
+	position: absolute;
+	left: 362px;
+	top: 202px;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+	font-family: "Comic Sans MS", cursive;
+	color: #FFF;
+	font-size: 34px;
+	z-index: 1;
+}
+
+.intro{
+	height: 261px;
+	width: 997px;
+	border: solid;
+	border-color: #3FFF00;
+	border-width: thick;
+	background-color: #999;
+	position: absolute;
+	padding-top: 24px;
+	padding-right: 10px;
+	padding-left: 9px;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+	font-family: "Comic Sans MS", cursive;
+	color: #FFF;
+	font-size: 32px;
+	z-index: 1;
+	text-align: center;
+	left: 130px;
+	top: 938px;
+}
+
+.photos{
+	height: 468px;
+	width: 722px;
+	position: absolute;
+	z-index: 2;
+	left: 262px;
+	top: 384px;
+}
+
+.promise{
+	height: 524px;
+	width: 992px;
+	border: solid;
+	border-color: #3FFF00;
+	border-width: thick;
+	background-color: #999;
+	position: absolute;
+	padding-top: 24px;
+	padding-right: 10px;
+	padding-left: 9px;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+	font-family: "Comic Sans MS", cursive;
+	color: #FFF;
+	font-size: 32px;
+	z-index: 1;
+	text-align: center;
+	left: 136px;
+	top: 1272px;
+	padding-right: 7px;
+}
+	
+.resumetab{
+	height: 27px;
+	width: 192px;
+	position: absolute;
+	left: 660px;
+	top: 326px;
+	border: solid;
+	border-width: medium;
+	border-color: #40FF0B;
+	color: #FFF;
+	background-color: #999999;
+	font-size: 18px;
+	z-index: 2;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.abouttab{
+	height: 27px;
+	width: 195px;
+	position: absolute;
+	left: 416px;
+	top: 325px;
+	border: solid;
+	border-width: medium;
+	border-color: #40FF0B;
+	color: #FFF;
+	background-color: #999999;
+	font-size: 18px;
+	z-index: 2;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.projectstab{
+	height: 27px;
+	width: 189px;
+	position: absolute;
+	left: 898px;
+	top: 325px;
+	border: solid;
+	border-width: medium;
+	border-color: #40FF0B;
+	color: #FFF;
+	background-color: #999999;
+	font-size: 18px;
+	z-index: 2;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.hometab{
+	height: 27px;
+	width: 195px;
+	position: absolute;
+	left: 184px;
+	top: 325px;
+	border: solid;
+	border-width: medium;
+	border-color: #40FF0B;
+	color: #FFF;
+	background-color: #999999;
+	font-size: 18px;
+	z-index: 2;
+	text-align: center;
+	padding-top: 10px;
+}

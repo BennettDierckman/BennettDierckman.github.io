@@ -1,0 +1,89 @@
+<html>
+  <head>
+    <title>I-101 Individual Project</title>
+  <link href="individual-project.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  <button type="button" onClick="goHome()">Home</button>
+  <button type="button" onClick="goToResume()">Resume</button>
+  <h1> <b>I-101 Individual Project Homepage </b> </h1>
+<div>
+  <img src="images/aboutmepic.JPG" height="300" width="300">
+  <br />
+  <img id="myImage" onClick="changeImage()" src="images/aboutmepic1.PNG" height="300" width="300">
+<p>Click on the lower of the two images to change it.</p>
+ </div>
+  <hr />
+  <div>
+    <h2> <u> Homepage Introduction </u> </h2>
+  <p> This website is a website that was created in order to display the various skills that I learned throughout the semester in I-101. The skills included are computer coding skills, as well as any other skills valuable in the work place. </p>
+  <h2> <u> Self Introduction </u> </h2>
+  <p>I am an aspiring Informaticist at Indiana University. I also have a strong interest in international business, spanish, and portuguese. Here in Bloomington I work part time for the IU chemistry library working the circulation desk, and I also work nights as the doorstaff manager at Kilroy's at the Dunnkirk. During the little free-time I have I enjoy driving and working on cars, my favorite car is a 1989 corvett my father owns. I also workout to stay in shape as well as coach olympic weightlifting at Force Fitness.</p>
+  </div>
+<hr />  
+<div>
+<h2>Projects</h2>
+<p>
+<b>Project</b>: Lecture Check 1 Cheat Sheet
+</p>
+<p><b>Description</b>: The Lab in preparation for our first lecture check on HTML and CSS may be found when you click the button below. You may see How I attempted to use large amounts of CSS in hopes that it would help me figure out CSS concepts i didn't understand. 
+</p>
+<button type="button" onClick="project1()">Project 1</button>
+<p>
+<b>Project</b>: JavaScript Lab
+</p>
+<p>
+<b>Description</b>: In this lab I developed my ability to use JavaScript to insert buttons with functions into a website. 
+</p>
+<button type="button" onClick="project2()">Project 2</button>
+</div>
+<h3>I101 Labs </h3>
+   <ul>
+
+  <li> <a href="W1Lab2.html"> week 1 lab 2 </a> </li>
+  <li> <a href="w2lab1.html"> week 2 lab 1 </a> </li>
+  <li> <a href="w2lab2.html"> week 2 lab 2 </a> </li>
+  <li> <a href="w3lab2.html"> week 3 lab 2 </a> </li>
+  <li> <a href="w4lab1.html"> week 4 lab 1 </a> </li>
+  <li> <a href="w5lab1.html"> week 5 lab 1 </a> </li>
+  <li> <a href="w5lab2.html"> week 5 lab 2 </a> </li>
+  <li> <a href="w6lab2.html"> week 6 lab 2 </a> </li>
+  <li> <a href="w8lab1.html"> week 8 lab 1 </a> </li>
+  <li> <a href="w8lab2.html"> week 8 lab 2 </a> </li>
+  <li> <a href="w9lab1.html"> week 9 lab 1 </a> </li>
+  <li> <a href="w9lab2.html"> week 9 lab 2 </a> </li>
+  <li> <a href="w10lab2.html"> week 10 lab 2 </a> </li>
+  </ul>
+<h4> I101 resources</h4>
+<ol>
+ <li> <a href= "http://www.indiana.edu/~i101/"> i101 homepage </a> </li>
+ <li> <a href= "http://www.indiana.edu/~i101/resources.html"> i101 resources page </a> </li>
+ <li> <a href= "http://iuware.iu.edu/Windows"> IU Ware </a> </li>
+ <li> <a href="originalHomepage.html"> Original I-101 Homepage</a></li>
+</ol>
+<script>
+function changeImage() {
+	var image = document.getElementById('myImage');
+	if (image.src.match("aboutmepic1")) {
+		image.src = "images/indexPicture.JPG";
+	} else {
+	image.src = "images/aboutmepic1.PNG";
+	}
+}
+function goHome() {
+	window.location='index.html';
+}
+function goToResume() {
+	window.location='resume.html';
+}
+function project1() {
+	window.location='w4lab1.html';
+}
+function project2() {
+	window.location='w6lab2.html';
+}
+</script>
+<p>      I certify that the content included in this portfolio/website is my own original work (or is cited accurately) and accurate to my knowledge. Work included which was conducted as part of a team or other group is indicated and attributed as such the other team members are named and a true description of my role in the project is included. -David Gutsch
+</p>
+  </body>
+</html>

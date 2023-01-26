@@ -1,0 +1,312 @@
+@charset "utf-8";
+/* CSS Document */
+
+.background{
+	height: 4430px;
+	width: 1271px;
+	border: solid;
+	border-color: #FF9;
+	background-color: #FF9;
+	border-width: thick;
+	position: absolute;
+	left: 2px;
+	top: 1px;
+	z-index: 0;
+}
+
+.title{
+	height: 132px;
+	width: 1000px;
+	border: solid;
+	border-color: #09F;
+	border-width: thick;
+	background-color: #69C;
+	position: absolute;
+	left: 125px;
+	top: 58px;
+	padding-top: 32px;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+	font-family: "Comic Sans MS", cursive;
+	color: #FFF;
+	font-size: 70px;
+	z-index: 1;
+	text-align: center;
+}
+
+.researchtab{
+	height: 27px;
+	width: 180px;
+	position: absolute;
+	left: 536px;
+	top: 250px;
+	border: solid;
+	border-width: medium;
+	border-color: #09F;
+	color: #FFF;
+	background-color: #69C;
+	font-size: 18px;
+	z-index: 2;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.dataviztab{
+	height: 27px;
+	width: 180px;
+	position: absolute;
+	left: 329px;
+	top: 250px;
+	border: solid;
+	border-width: medium;
+	border-color: #09F;
+	color: #FFF;
+	background-color: #69C;
+	font-size: 18px;
+	z-index: 2;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.solutiontab{
+	height: 27px;
+	width: 180px;
+	position: absolute;
+	left: 950px;
+	top: 250px;
+	border: solid;
+	border-width: medium;
+	border-color: #09F;
+	color: #FFF;
+	background-color: #69C;
+	font-size: 18px;
+	z-index: 2;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.presentationtab{
+	height: 27px;
+	width: 180px;
+	position: absolute;
+	left: 742px;
+	top: 250px;
+	border: solid;
+	border-width: medium;
+	border-color: #09F;
+	color: #FFF;
+	background-color: #69C;
+	font-size: 18px;
+	z-index: 2;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.i101projecttab{
+	height: 27px;
+	width: 180px;
+	position: absolute;
+	left: 126px;
+	top: 250px;
+	border: solid;
+	border-width: medium;
+	border-color: #09F;
+	color: #FFF;
+	background-color: #69C;
+	font-size: 18px;
+	z-index: 2;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.person1{
+	height: 472px;
+	width: 1000px;
+	border: solid;
+	border-color: #09F;
+	border-width: thick;
+	background-color: #69C;
+	position: absolute;
+	padding-top: 24px;
+	padding-right: 10px;
+	padding-left: 9px;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+	font-family: "Comic Sans MS", cursive;
+	color: #FFF;
+	font-size: 32px;
+	z-index: 1;
+	text-align: center;
+	left: 121px;
+	top: 2215px;
+}
+
+.person2{
+	height: 472px;
+	width: 1000px;
+	border: solid;
+	border-color: #09F;
+	border-width: thick;
+	background-color: #69C;
+	position: absolute;
+	padding-top: 24px;
+	padding-right: 10px;
+	padding-left: 9px;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+	font-family: "Comic Sans MS", cursive;
+	color: #FFF;
+	font-size: 32px;
+	z-index: 1;
+	text-align: center;
+	left: 119px;
+	top: 3333px;
+}
+
+.person3{
+	height: 472px;
+	width: 1000px;
+	border: solid;
+	border-color: #09F;
+	border-width: thick;
+	background-color: #69C;
+	position: absolute;
+	padding-top: 24px;
+	padding-right: 10px;
+	padding-left: 9px;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+	font-family: "Comic Sans MS", cursive;
+	color: #FFF;
+	font-size: 32px;
+	z-index: 1;
+	text-align: center;
+	left: 121px;
+	top: 2771px;
+}
+.person4{
+	height: 472px;
+	width: 1000px;
+	border: solid;
+	border-color: #09F;
+	border-width: thick;
+	background-color: #69C;
+	position: absolute;
+	padding-top: 24px;
+	padding-right: 10px;
+	padding-left: 9px;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+	font-family: "Comic Sans MS", cursive;
+	color: #FFF;
+	font-size: 32px;
+	z-index: 1;
+	text-align: center;
+	left: 125px;
+	top: 1637px;
+}
+
+.person5{
+	height: 472px;
+	width: 1000px;
+	border: solid;
+	border-color: #09F;
+	border-width: thick;
+	background-color: #69C;
+	position: absolute;
+	padding-top: 24px;
+	padding-right: 10px;
+	padding-left: 9px;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+	font-family: "Comic Sans MS", cursive;
+	color: #FFF;
+	font-size: 32px;
+	z-index: 1;
+	text-align: center;
+	left: 115px;
+	top: 3883px;
+}
+.statement{
+	height: 718px;
+	width: 1000px;
+	border: solid;
+	border-color: #09F;
+	border-width: thick;
+	background-color: #69C;
+	position: absolute;
+	padding-top: 24px;
+	padding-right: 10px;
+	padding-left: 9px;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+	font-family: "Comic Sans MS", cursive;
+	color: #FFF;
+	font-size: 24px;
+	z-index: 1;
+	text-align: center;
+	left: 125px;
+	top: 809px;
+}
+
+.photos{
+	height: 430px;
+	width: 334px;
+	position: absolute;
+	z-index: 2;
+	left: 270px;
+	top: 310px;
+}
+
+.connerpic{
+	height: 404px;
+	width: 282px;
+	position: absolute;
+	z-index: 2;
+	left: 506px;
+	top: 2306px;
+}
+	
+.bennettpic{
+	height: 394px;
+	width: 224px;
+	position: absolute;
+	z-index: 2;
+	left: 503px;
+	top: 3414px;
+}
+
+.kimpic{
+	height: 394px;
+	width: 224px;
+	position: absolute;
+	z-index: 2;
+	left: 504px;
+	top: 2864px;
+}
+
+.enguuneepic{
+	height: 394px;
+	width: 224px;
+	position: absolute;
+	z-index: 2;
+	left: 502px;
+	top: 1732px;
+}
+
+.ericpic{
+	height: 394px;
+	width: 224px;
+	position: absolute;
+	z-index: 2;
+	left: 508px;
+	top: 3976px;
+}
+	

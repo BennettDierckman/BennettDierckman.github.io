@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda'); /*jumbotrons*/
+@import url('https://fonts.googleapis.com/css?family=Timmana'); /*jumbo p and headings*/
+@import url('https://fonts.googleapis.com/css?family=Sarala'); /*p*/
+
+/* 
+FYI - Import statements, if any, go on the very first line
+Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+Most of your styles will go in this section
+*/
+
+/*-----EVERY PAGE GETS THIS-----*/
+body{
+	background: rgb(13,13,13);
+	background: -moz-linear-gradient(left, rgba(13,13,13,1) 0%, rgba(78,78,78,1) 5%, rgba(149,149,149,1) 10%, rgba(149,149,149,1) 10%, rgba(149,149,149,1) 90%, rgba(78,78,78,1) 95%, rgba(13,13,13,1) 100%);
+	background: -webkit-linear-gradient(left, rgba(13,13,13,1) 0%,rgba(78,78,78,1) 5%,rgba(149,149,149,1) 10%,rgba(149,149,149,1) 10%,rgba(149,149,149,1) 90%,rgba(78,78,78,1) 95%,rgba(13,13,13,1) 100%);
+	background: linear-gradient(to right, rgba(13,13,13,1) 0%,rgba(78,78,78,1) 5%,rgba(149,149,149,1) 10%,rgba(149,149,149,1) 10%,rgba(149,149,149,1) 90%,rgba(78,78,78,1) 95%,rgba(13,13,13,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d0d0d', endColorstr='#0d0d0d',GradientType=1 );
+}
+main {
+	background-color: rgba(0, 0, 0, 0.5)
+}
+
+
+/*FOOTER*/
+.foot2{
+	padding-right: 0;
+}
+.foot3{
+	padding-left: 0;
+}
+footer h1{
+	font-family: 'Timmana', sans-serif;
+	text-align:center;
+	margin-bottom: 0;
+	margin-top: 3px;
+	padding-top: 10px;
+	font-size: 18px;
+	color: white;
+	width: 100%;
+	background-color: black;
+}
+footer h4{
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 0;
+	font-family: 'Sarla', sans-serif;
+}
+footer p{
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 8px;
+	font-family: 'Sarala', sans-serif;
+}
+.foot{
+	background-color: rgba(0, 0, 0, 0.25);
+	padding: 0,0,0,0;
+	color: white;
+	height: 120px;
+}
+footer{
+	background: rgb(13,13,13);
+	background: -moz-linear-gradient(top, rgba(13,13,13,1) 0%, rgba(149,149,149,1) 14%, rgba(149,149,149,1) 69%, rgba(149,149,149,1) 79%, rgba(78,78,78,1) 91%, rgba(13,13,13,1) 102%);
+	background: -webkit-linear-gradient(top, rgba(13,13,13,1) 0%,rgba(149,149,149,1) 14%,rgba(149,149,149,1) 69%,rgba(149,149,149,1) 79%,rgba(78,78,78,1) 91%,rgba(13,13,13,1) 102%);
+	background: linear-gradient(to bottom, rgba(13,13,13,1) 0%,rgba(149,149,149,1) 14%,rgba(149,149,149,1) 69%,rgba(149,149,149,1) 79%,rgba(78,78,78,1) 91%,rgba(13,13,13,1) 102%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d0d0d', endColorstr='#0d0d0d',GradientType=0 );
+	margin-top: 10px;
+	padding-top: 30px;
+	padding-bottom: 45px;
+}
+footer .left{
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 5px;
+}
+footer .right{
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 5px;
+}
+footer img {
+	height: 30px;
+	padding-top: 5px;
+}
+.top{
+	margin-bottom:3px
+}
+.fa-3x{
+	font-size: 2.00em;
+}
+.fa-2x {
+	color: white;
+	padding-right: 13px;
+}
+
+/*JUMBOTRON*/
+.jumbotron {
+	background: url(../images/title.jpg) 100%; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: white;
+	margin-top: 58px;
+	margin-bottom: 5px;
+	padding-bottom: auto;
+	padding-top: auto;
+}
+.jumbotron h1 {
+	margin-bottom: 0;
+	font-family: 'Merienda', cursive;
+	font-size: 30px;
+}
+
+.jumbotron p{
+	font-size: 23px;
+	font-family: 'Timmana', sans-serif;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+#jumbopacity{
+	background-color: rgba(0, 0, 0, 0.35);
+	text-align:center;
+	display: inline-block;
+}
+a {
+	color: black;
+}
+a.hover  {
+	color: gold;
+}
+/*-----THIS PAGE SPECIFICALLY-----*/
+#locations {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: flex-row;
+	flex-wrap: wrap;
+	font-family: 'Pangolin', cursive;
+}
+
+figure {
+	background-color: rgba(0, 0, 0, 0.15);
+	margin-top: 5px;
+	margin-bottom: 8px;
+}
+figcaption{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2px;
+}
+figcaption h4 {
+	color: white;
+	text-align: center;
+	font-size: 19px;
+	font-family: 'Timmana', sans-serif;
+	margin-bottom: 0;
+	margin-top: 7px;
+}
+figcaption p {
+	color: white;
+	text-align:center;
+	margin-bottom: 5px;
+	font-family: 'Sarala', sans-serif;
+	font-size: 15px;
+}
+figcaption h6 {
+	color: white;
+	text-align: center;
+	font-family: 'Timmana', sans-serif;
+	margin-bottom: 0;
+	font-size: 16px;
+}
+.btn {
+	display: inline-block;
+	font-family: 'Sarala', sans-serif;
+}
+#locations h4 {
+	font-family: 'Timmana', sans-serif;
+	text-align:center;
+	margin-bottom: -10px;
+	padding-top: 15px;
+	font-size: 28px;
+	color: white;
+	background-color: black;
+}
+#locations p {
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-family: 'Sarala', sans-serif;
+	color: white;
+	font-size: 14px;
+}
+.hourList {
+	width: 75%;
+	margin: auto;
+	padding-top: 10px;
+}
+#products {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: flex-row;
+	flex-wrap: wrap;
+	font-family: 'Pangolin', cursive;
+}
+#products img{
+	width: 180px;
+}
+ul {
+	text-align: center;
+}
+address {
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: 8px;
+	font-family: 'Sarala', sans-serif;
+	font-style: italic;
+	color: white;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+/*-----EVERY PAGE GETS THIS-----*/
+footer h1 {
+	font-size: 20px;
+}
+.fa-3x {
+	font-size: 2.5em;
+}
+footer h4{
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 0;
+}
+footer p{
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.top{
+	margin-bottom:4px;
+}
+.foot{
+	height: 140px;
+}
+.foot2{
+	padding-right: 0;
+}
+.foot3{
+	padding-left: 0;
+}
+footer img {
+	height: 40px;
+}
+.jumbotron h1 {
+	margin-bottom: 0;
+	font-size: 40px;
+}
+/*-----THIS PAGE SPECIFICALLY-----*/
+#locations h4 {
+	font-size: 28px;
+}
+#locations p { 
+	font-size: 14px;
+}
+#products img{
+	width: 240px;
+}
+figcaption h4 {
+	font-size: 22px;
+}
+figcaption p{
+	font-size: 16px;
+}
+figcaption h6 {
+	font-size: 20px;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+/*-----EVERY PAGE GETS THIS-----*/
+footer h1 {
+	font-size: 22px;
+}
+footer h4{
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 0;
+}
+footer p{
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.fa-3x {
+	font-size: 3.0em;
+}
+footer img {
+	height: 44px;
+}
+.jumbotron h1 {
+	margin-bottom: 0;
+	font-size: 50px;
+}
+.foot{
+	height: 140px;
+}
+.foot1 {
+	padding-right: 0;
+}
+.foot2{
+	padding-right: 0;
+	padding-left: 0;
+}
+.foot3{
+	padding-left: 0;
+}
+/*-----THIS PAGE SPECIFICALLY-----*/
+#locations h4 {
+	font-size: 28px;
+}
+#locations p { 
+	font-size: 14px;
+}
+#products img{
+	width: 225px;
+}
+figcaption h4 {
+	font-size: 21px;
+}
+figcaption p{
+	font-size: 16px;
+}
+figcaption h6 {
+	font-size: 18px;
+}
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+/*-----EVERY PAGE GETS THIS-----*/
+footer h1 {
+	font-size: 24px;
+}
+footer h4{
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 0;
+}
+footer p{
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+.fa-3x {
+	font-size: 3.0em;
+}
+footer img {
+	height: 44px;
+}
+.jumbotron h1 {
+	margin-bottom: 0;
+	font-size: 65px;
+}
+.foot{
+	height: 140px;
+}
+.foot1 {
+	padding-right: 0;
+}
+.foot2{
+	padding-right: 0;
+	padding-left: 0;
+}
+.foot3{
+	padding-left: 0;
+}
+/*-----THIS PAGE SPECIFICALLY-----*/
+#locations h4 {
+	font-size: 28px;
+}
+#locations p { 
+	font-size: 14px;
+}
+#products img{
+	width: 225px;
+}
+figcaption h4 {
+	font-size: 23px;
+}
+figcaption p{
+	font-size: 16px;
+}
+figcaption h6 {
+	font-size: 20px;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+/*-----EVERY PAGE GETS THIS-----*/
+footer h1 {
+	font-size: 28px;
+}
+footer h4{
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 0;
+}
+footer p{
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.fa-3x {
+	font-size: 3.5em;
+}
+footer img {
+	height: 47.5px;
+}
+	
+.jumbotron h1 {
+	margin-bottom: 0;
+	font-size: 75px
+}
+.foot{
+	height: 160px;
+}
+.foot1 {
+	padding-right: 0;
+}
+.foot2{
+	padding-right: 0;
+	padding-left: 0;
+}
+.foot3{
+	padding-left: 0;
+}
+/*-----THIS PAGE SPECIFICALLY-----*/
+#locations h4 {
+	font-size: 28px;
+}
+#locations p { 
+	font-size: 14px;
+}
+#products img{
+	width: 250px;
+}
+figcaption h4 {
+	font-size: 24px;
+}
+figcaption p{
+	font-size: 18px;
+}
+figcaption h6 {
+	font-size: 22px;
+}
+}

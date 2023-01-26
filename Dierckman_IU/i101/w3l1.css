@@ -1,0 +1,17 @@
+.yo {
+	font-family: "Comic Sans MS", cursive;
+	margin: 25px;
+	padding: 10px;
+	height: auto;
+	width: auto;
+	border-top-width: thick;
+	border-right-width: thick;
+	border-bottom-width: thick;
+	border-left-width: thick;
+	border-top-style: groove;
+	border-right-style: groove;
+	border-bottom-style: groove;
+	border-left-style: groove;
+	color: #AF0C0C;
+	background-color: #AF0C0C;
+}

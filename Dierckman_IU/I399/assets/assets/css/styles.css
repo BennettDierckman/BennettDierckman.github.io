@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda'); /*jumbotrons*/
+@import url('https://fonts.googleapis.com/css?family=Timmana'); /*jumbo p and headings*/
+@import url('https://fonts.googleapis.com/css?family=Sarala'); /*p*/
+
+/* 
+FYI - Import statements, if any, go on the very first line
+Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+Most of your styles will go in this section
+*/
+
+/*-----EVERY PAGE GETS THIS-----*/
+body{
+	background: rgb(13,13,13);
+	background: -moz-linear-gradient(left, rgba(13,13,13,1) 0%, rgba(78,78,78,1) 5%, rgba(149,149,149,1) 10%, rgba(149,149,149,1) 10%, rgba(149,149,149,1) 90%, rgba(78,78,78,1) 95%, rgba(13,13,13,1) 100%);
+	background: -webkit-linear-gradient(left, rgba(13,13,13,1) 0%,rgba(78,78,78,1) 5%,rgba(149,149,149,1) 10%,rgba(149,149,149,1) 10%,rgba(149,149,149,1) 90%,rgba(78,78,78,1) 95%,rgba(13,13,13,1) 100%);
+	background: linear-gradient(to right, rgba(13,13,13,1) 0%,rgba(78,78,78,1) 5%,rgba(149,149,149,1) 10%,rgba(149,149,149,1) 10%,rgba(149,149,149,1) 90%,rgba(78,78,78,1) 95%,rgba(13,13,13,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d0d0d', endColorstr='#0d0d0d',GradientType=1 );
+}
+main {
+	display: inline-block;
+}
+
+/*FOOTER*/
+.foot2{
+	padding-right: 0;
+}
+.foot3{
+	padding-left: 0;
+}
+footer h1{
+	font-family: 'Timmana', sans-serif;
+	text-align:center;
+	margin-bottom: 0;
+	margin-top: 3px;
+	padding-top: 10px;
+	font-size: 18px;
+	color: white;
+	width: 100%;
+	background-color: black;
+}
+footer h4{
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 0;
+	font-family: 'Sarla', sans-serif;
+}
+footer p{
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 8px;
+	font-family: 'Sarala', sans-serif;
+}
+.foot{
+	background-color: rgba(0, 0, 0, 0.25);
+	padding: 0,0,0,0;
+	color: white;
+	height: 120px;
+}
+
+footer{
+	background: rgb(13,13,13);
+	background: -moz-linear-gradient(top, rgba(13,13,13,1) 0%, rgba(149,149,149,1) 14%, rgba(149,149,149,1) 69%, rgba(149,149,149,1) 79%, rgba(78,78,78,1) 91%, rgba(13,13,13,1) 102%);
+	background: -webkit-linear-gradient(top, rgba(13,13,13,1) 0%,rgba(149,149,149,1) 14%,rgba(149,149,149,1) 69%,rgba(149,149,149,1) 79%,rgba(78,78,78,1) 91%,rgba(13,13,13,1) 102%);
+	background: linear-gradient(to bottom, rgba(13,13,13,1) 0%,rgba(149,149,149,1) 14%,rgba(149,149,149,1) 69%,rgba(149,149,149,1) 79%,rgba(78,78,78,1) 91%,rgba(13,13,13,1) 102%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d0d0d', endColorstr='#0d0d0d',GradientType=0 );
+	margin-top: 10px;
+	padding-top: 30px;
+	padding-bottom: 45px;
+}
+footer .left{
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 5px;
+}
+footer .right{
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 5px;
+}
+footer img {
+	height: 25px;
+	padding-top: 5px;
+}
+.top{
+	margin-bottom:3px
+}
+.fa-3x{
+	font-size: 2.00em;
+}
+.fa-2x {
+	color: white;
+	padding-right: 13px;
+}
+/*JUMBOTRON*/
+.jumbotron {
+	background: url(../images/title.jpg) 100%; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: white;
+	margin-top: 58px;
+	margin-bottom: 5px;
+	padding-bottom: auto;
+	padding-top: auto;
+}
+.jumbotron h1 {
+	margin-bottom: 0;
+	font-family: 'Merienda', cursive;
+	font-size: 44px;
+}
+
+.jumbotron p{
+	font-size: 23px;
+	font-family: 'Timmana', sans-serif;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+#jumbopacity{
+	background-color: rgba(0, 0, 0, 0.35);
+	text-align:center;
+	display: inline-block;
+}
+a {
+	color: black;
+}
+a.hover  {
+	color: gold;
+}
+/*-----THIS PAGE SPECIFICALLY-----*/
+/*CAROUSEL*/
+.carousel {
+	margin-top: 0;
+	display: inline-block;
+	width:100%;
+}
+#top {
+	background-color: rgba(0, 0, 0, 0.25);
+	padding: 0 0 0 0;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width:100%;
+}
+#top h2 {
+	font-family: 'Timmana', sans-serif;
+	text-align:center;
+	margin-bottom: -10px;
+	padding-top: 10px;
+	font-size: 30px;
+	color: white;
+	width: 100%;
+	background-color: black;
+}
+#top p {
+	font-family: 'Sarala', sans-serif;
+	margin-top: 0;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 18px;
+	width: 80%;
+}
+#top img {
+	margin: 0 auto 10px;
+}
+.about {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.btn {
+	margin-bottom: 10px;
+}
+.modal{
+	margin-top: 150px;
+}
+.modal-body {
+	background-color:#2A2B2D;
+}
+.modal-header {
+	background-color: rgba(42, 43, 45, 0.5);
+}
+.modal-footer {
+	background-color: rgba(42, 43, 45, 0.5);
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+/*-----EVERY PAGE GETS THIS-----*/
+footer h1 {
+	font-size: 20px;
+}
+.fa-3x {
+	font-size: 2.5em;
+}
+footer h4{
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 0;
+}
+footer p{
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+.top{
+	margin-bottom:4px;
+}
+footer img {
+	height: 40px;
+}
+.jumbotron h1 {
+	margin-bottom: 0;
+	font-size: 55px;
+}
+.foot{
+	height: 140px;
+}
+.jumbotron p{
+	font-size: 24px;
+}
+.foot2{
+	padding-right: 0;
+}
+.foot3{
+	padding-left: 0;
+}
+/*-----THIS PAGE SPECIFICALLY-----*/
+#top h2 {
+	font-size: 36px;
+}
+#top p{
+	font-size:23px;
+	color: purple;
+	max-width: 85%;
+}
+#top img {
+	width: 218px;
+}
+#top {
+	margin-bottom: 5px;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+/*-----EVERY PAGE GETS THIS-----*/
+footer h1 {
+	font-size: 22px;
+}
+footer h4{
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 0;
+}
+footer p{
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.fa-3x {
+	font-size: 3.0em;
+}
+footer img {
+	height: 44px;
+}
+.jumbotron h1 {
+	margin-bottom: 0;
+	font-size: 70px;
+}
+.foot{
+	height: 140px;
+}
+.jumbotron p{
+	font-size: 24px;
+}
+.foot1 {
+	padding-right: 0;
+}
+.foot2{
+	padding-right: 0;
+	padding-left: 0;
+}
+.foot3{
+	padding-left: 0;
+}
+/*-----THIS PAGE SPECIFICALLY-----*/
+#top h2 {
+	font-size: 36px;
+}
+#top p{
+	font-size:24px;
+	color: gold;
+	max-width: 75%;
+}
+#top img {
+	width: 218px;
+}
+#top {
+	margin-bottom: 5px;
+}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+/*-----EVERY PAGE GETS THIS-----*/
+footer h1 {
+	font-size: 24px;
+}
+footer h4{
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 0;
+}
+footer p{
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+.fa-3x {
+	font-size: 3.0em;
+}
+footer img {
+	height: 44px;
+}
+.jumbotron h1 {
+	margin-bottom: 0;
+	font-size: 80px;
+}
+.jumbotron p{
+	font-size: 28px;
+}
+.foot1 {
+	padding-right: 0;
+}
+.foot2{
+	padding-right: 0;
+	padding-left: 0;
+}
+.foot3{
+	padding-left: 0;
+}
+/*-----THIS PAGE SPECIFICALLY-----*/
+#top h2 {
+	font-size: 30px;
+}
+#top p{
+	font-size:19px;
+	color: blue;
+	max-width: 100%;
+}
+#top img {
+	width: 200px;
+}
+.about {
+	padding-right: 0;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+/*-----EVERY PAGE GETS THIS-----*/
+footer h1 {
+	font-size: 28px;
+}
+footer h4{
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 0;
+}
+footer p{
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.fa-3x {
+	font-size: 3.5em;
+}
+footer img {
+	height: 47.5px;
+}
+	
+.jumbotron h1 {
+	margin-bottom: 0;
+	font-size: 90px
+}
+.jumbotron p{
+	font-size: 32px;
+}
+.foot{
+	height: 160px;
+}
+.foot1 {
+	padding-right: 0;
+}
+.foot2{
+	padding-right: 0;
+	padding-left: 0;
+}
+.foot3{
+	padding-left: 0;
+}
+/*-----THIS PAGE SPECIFICALLY-----*/
+#top h2 {
+	font-size: 30px;
+}
+#top p{
+	font-size:19px;
+	color: yellow;
+	max-width: 100%;
+}
+#top img {
+	width: 225px;
+}
+.about {
+	padding-right: 0;
+}
+}

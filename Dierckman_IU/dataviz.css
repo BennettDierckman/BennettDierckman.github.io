@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.background{
+	height: 4430px;
+	width: 1271px;
+	border: solid;
+	border-color: #FF9;
+	background-color: #FF9;
+	border-width: thick;
+	position: absolute;
+	left: 2px;
+	top: 1px;
+	z-index: 0;
+}
+
+.title{
+	height: 132px;
+	width: 1000px;
+	border: solid;
+	border-color: #09F;
+	border-width: thick;
+	background-color: #69C;
+	position: absolute;
+	left: 125px;
+	top: 60px;
+	padding-top: 32px;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+	font-family: "Comic Sans MS", cursive;
+	color: #FFF;
+	font-size: 70px;
+	z-index: 1;
+	text-align: center;
+}
+
+.researchtab{
+	height: 27px;
+	width: 180px;
+	position: absolute;
+	left: 536px;
+	top: 250px;
+	border: solid;
+	border-width: medium;
+	border-color: #09F;
+	color: #FFF;
+	background-color: #69C;
+	font-size: 18px;
+	z-index: 2;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.dataviztab{
+	height: 27px;
+	width: 180px;
+	position: absolute;
+	left: 329px;
+	top: 250px;
+	border: solid;
+	border-width: medium;
+	border-color: #09F;
+	color: #FFF;
+	background-color: #69C;
+	font-size: 18px;
+	z-index: 2;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.solutiontab{
+	height: 27px;
+	width: 180px;
+	position: absolute;
+	left: 950px;
+	top: 250px;
+	border: solid;
+	border-width: medium;
+	border-color: #09F;
+	color: #FFF;
+	background-color: #69C;
+	font-size: 18px;
+	z-index: 2;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.presentationtab{
+	height: 27px;
+	width: 180px;
+	position: absolute;
+	left: 742px;
+	top: 250px;
+	border: solid;
+	border-width: medium;
+	border-color: #09F;
+	color: #FFF;
+	background-color: #69C;
+	font-size: 18px;
+	z-index: 2;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.i101projecttab{
+	height: 27px;
+	width: 180px;
+	position: absolute;
+	left: 126px;
+	top: 250px;
+	border: solid;
+	border-width: medium;
+	border-color: #09F;
+	color: #FFF;
+	background-color: #69C;
+	font-size: 18px;
+	z-index: 2;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.cheatbox{
+	height: 246px;
+	width: 1000px;
+	border: solid;
+	border-color: #09f;
+	border-width: thick;
+	background-color: #69C;
+	position: absolute;
+	padding-top: 60px;
+	padding-right: 10px;
+	padding-left: 9px;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+	font-family: "Comic Sans MS", cursive;
+	color: #FFF;
+	font-size: 32px;
+	z-index: 1;
+	text-align: center;
+	left: 123px;
+	top: 333px;
+}
+
+.dataviz1{
+	height: 1200px;
+	width: 1000px;
+	position: absolute;
+	z-index: 2;
+	left: 125px;
+	top: 700px;
+}
+
+.dataviz2{
+	height: 1200px;
+	width: 1000px;
+	position: absolute;
+	z-index: 2;
+	left: 125px;
+	top: 2000px;
+}
+
+.dataviz3{
+	height: 1200px;
+	width: 1000px;
+	position: absolute;
+	z-index: 2;
+	left: 127px;
+	top: 3300px;
+}
