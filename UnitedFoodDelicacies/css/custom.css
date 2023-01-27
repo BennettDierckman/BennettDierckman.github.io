@@ -1,0 +1,133 @@
+/* Extra small devices (portrait phones, less than 576px)
+ No media query since this is the default in Bootstrap*/
+.loginBubble{
+	background-color: #F2F3F4;
+}
+.manageItemsButton{
+	margin-top: 50px;
+}
+.edit-delete-btns{
+	display:flex;
+	flex-direction:column;
+}
+.edit-delete-btns button{
+	width: 100px;
+}
+.table-custom {
+	max-width:95%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.table-custom th{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.table-custom td{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.product-modern-figure img {
+	width: 135px !important;
+	border-top-left-radius:6px;
+	border-bottom-left-radius:6px;
+}
+.listView_productButtons{
+	display:flex;
+	justify-content: space-around;
+}
+.product-modern .product-badge{
+	top: 0;
+	left: 0;
+}
+.product-badge{
+	top:0;
+	right:0;
+}
+.product{
+	padding:0px;
+}
+.product-figure img{
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+.viewItemSection {
+	padding-top:40px !important;
+}
+.footerLogo{
+	max-width:80% !important;
+	margin-left:auto;
+	margin-right:auto;
+}
+.title-breadcrumbs-custom-path li::after{
+	color: #FFFFFF !important;
+}
+#listContainer{
+  max-height:30vh; 
+  width:100%;
+  overflow:hidden;
+  overflow-y:scroll;
+}
+#overflowContainer {
+  overflow-y:scroll
+}
+
+/*width="220" height="160"*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+	.loginBubble{
+		border-radius: 20px;
+	}
+	.product-top-panel{
+		justify-content: flex-end;	
+	}
+	.product-top-panel p{
+		text-align:right;	
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/ 
+@media (min-width: 768px) {
+	.listView_productButtons{
+		display:flex;
+		justify-content: flex-start;
+	}
+	.footerLogo{
+		max-width:80% !important;
+		margin-left:0;
+		margin-right:auto;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	.manageItemsButton{
+		margin-top: 0;
+	}
+	.product-modern-figure img {
+		width: 250px !important;
+	}
+	.product-top-panel{
+		justify-content: space-between;	
+	}
+	.footerLogo{
+		max-width:85% !important;
+		margin-left:0;
+		margin-right:auto;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.product-modern-figure img {
+		width: 250px !important;
+	}	
+	.rd-navbar-classic.rd-navbar-static .rd-navbar-brand img{
+		max-height:100px;
+	}
+	.footerLogo{
+		max-width:100% !important;
+		margin-left:0;
+		margin-right:auto;
+	}
+}
