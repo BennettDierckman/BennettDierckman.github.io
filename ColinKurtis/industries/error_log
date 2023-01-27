@@ -1,0 +1,4 @@
+[27-Sep-2022 02:23:17 America/Chicago] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home1/weg4vcdb/public_html/NationalFood/functions.php on line 85
+[27-Sep-2022 02:23:17 America/Chicago] PHP Warning:  explode() expects parameter 2 to be string, array given in /home1/weg4vcdb/public_html/NationalFood/functions.php on line 94
+[14-Dec-2022 23:12:14 America/Chicago] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home1/weg4vcdb/public_html/NationalFood/functions.php on line 85
+[14-Dec-2022 23:12:14 America/Chicago] PHP Warning:  explode() expects parameter 2 to be string, array given in /home1/weg4vcdb/public_html/NationalFood/functions.php on line 94

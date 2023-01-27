@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+	Bennett Dierckman (DelGado)
+	CopyRight Mardin J. Yadegar International 
+	MysticImagesTattoo.com
+	HOME PAGE
+-->
+	<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<title>Register Artist</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Font Awesome -->
+	<script src="https://use.fontawesome.com/a686b3c76b.js"></script>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<link rel="stylesheet" href="assets/css/custom.css">
+	<link rel="stylesheet" href="assets/css/perfundo.css">
+	</head>
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<div class="container-fluid"> <!-- PUT YER SHIT IN HERE BOYS -->
+			<div id="fullWidthTopNav">
+				<div id="TopImgDiv">
+					<img id="topLogo"src="assets/images/MysticImagesTattooCo.png" alt="Mystic Images Logo">
+				</div>
+			</div>
+			<nav class="container-fluid navbar fixed-top navbar-fixed-top navbar-toggleable-md navbar-inverse">
+			  	<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+			  	</button>
+			  	<a class="navbar-brand" href="index.php"><img id="navLogo"src="assets/images/MysticSkullCut.png" alt="Mystic Images Logo"></a>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+					    <li class="nav-item active">
+							<a class="nav-link" href="index.php">Go to Site</a> 
+						</li>			  
+					</ul>
+				</div>
+			</nav>
+			<main>
+				<div class="loginBackground">
+					<div class="row">
+						<div class="col-12 col-md-8 col-lg-6 col-xl-4 mx-auto">
+							<div class="registerForm">
+								<form method="post" action="assets/php/register.php">
+								  <div class="form-group">
+								    <input type="text" class="form-control" id="fn" name="fn" placeholder="First Name" required>
+								  </div>
+								  <div class="form-group">
+								    <input type="text" class="form-control" id="ln" name="ln" placeholder="Last Name" required>
+								  </div>
+								  <div class="form-group">
+								    <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone (optional)" >
+								  </div>
+								  <div class="form-group">
+								    <input type="text" class="form-control" id="facebook" name="facebook" placeholder="Facebook (optional)">
+								  </div>
+								  <div class="form-group">
+								    <input type="text" class="form-control" id="instagram" name="instagram" placeholder=" Instagram (optional)">
+								  </div>
+								  <div class="form-group" style="display: flex; flex-direction: row; justify-content: space-between;">
+								    <select name="userType" style="background-color: tan; margin: 0 auto 10px auto;">
+                                        <option value="tattoo">Tattoo Artist</option>
+                                        <option value="pierce">Piercing Artist</option>
+                                    </select>
+                                    <select name="userLocation" style="background-color: tan; margin: 0 auto 10px auto;">
+                                        <option value="noblesville">Noblesville</option>
+                                        <option value="castleton">Castleton</option>
+                                    </select>
+								  </div>
+								  <div class="form-group">
+								    <input type="email" class="form-control" id="email" name="email" placeholder="Email (required for login)" required>
+								  </div>
+								  <div class="form-group">
+								    <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+								  </div>
+								  <div class="form-group">
+								    <input type="password" class="form-control" id="confirmPassword" name="password2" placeholder="Confirm Password" required>
+								  </div>
+								  <button type="submit" class="btn btn-primary">Register</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+<!-- -->
+		</div>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+        <script type="text/javascript">
+          var password = document.getElementById("password")
+              , confirmPassword = document.getElementById("confirmPassword");
+
+          function validatePassword(){
+            if(password.value != confirmPassword.value) {
+              confirmPassword.setCustomValidity("Passwords Don't Match");
+            } 
+            else{
+              confirmPassword.setCustomValidity('');
+            }
+          }
+          password.onchange = validatePassword;
+          confirmPassword.onkeyup = validatePassword;
+        </script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script>$('.carousel').carousel()</script>  
+  </body>
+</html>\

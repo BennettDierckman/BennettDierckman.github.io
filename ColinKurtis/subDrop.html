@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<!-- https://stackoverflow.com/questions/51871908/bootstrap-4-nested-dropdown -->
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <div class="dropdown show">
+    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select Streams
+                  </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <li><a class="dropdown-item" href="#">Science</a></li>
+      <li><a class="dropdown-item" href="#">Commerce</a></li>
+      <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Arts</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">History</a></li>
+          <li><a class="dropdown-item" href="#">Geography</a></li>
+          <li><a class="dropdown-item" href="#">Sociology</a></li>
+
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <script type="text/javascript">
+      $('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
+          if (!$(this).next().hasClass('show')) {
+            console.log("first if statement");
+            $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+          }
+          var $subMenu = $(this).next(".dropdown-menu");
+          $subMenu.toggleClass('show');
+
+
+          $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+            $('.dropdown-submenu .show').removeClass("show");
+          });
+
+
+          return false;
+        });
+  </script>
+</body>
+
+</html>

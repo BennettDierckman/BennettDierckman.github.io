@@ -1,0 +1,128 @@
+
+
+/* 
+FYI - Import statements, if any, go on the very first line
+Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+Most of your styles will go in this section
+*/
+
+header{
+	background-color:#f8f9fa !important;
+}
+.navbar-toggler{
+	position:absolute; 
+	top:-40px; 
+	right:5px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: .8em;
+}
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
+.page{
+	min-height: 100vh; 
+	background-color:#bebebe; 
+	display:flex; 
+	flex-direction:column; 
+	justify-content: space-between;
+}
+article	{
+	background-color:#9d9d9d;
+}
+aside {
+	background-color:#dfdfdf;	
+}
+.articleBG{
+	background-color:#9d9d9d !important;	
+}
+.pageTitle {
+	width:100vw;
+}
+li.unique {
+	font-style: italic;
+}
+.contentBubble {
+	width:90%;
+	border: 2px solid black;
+	background-color:#f2f3f4;
+}
+.carousel {
+	height: 200px;
+}
+.carousel-item {
+	max-height:200px;
+}
+.carousel-item img {
+	max-height:200px;
+	width:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+.productPage-productImg {
+	height:200px;
+}
+.productPage-productImg img{
+	max-height:100%;
+	width:auto;
+}
+.formGroup {
+	display:flex;
+	flex-direction:column;
+	margin-bottom:4px;
+}
+.formGroup label {
+	font-size:80%; /* 80% of parent class's font size */
+	margin-bottom:0;
+}
+footer{
+	background-color:#f8f9fa !important;
+}
+.scroll{
+	max-height: 80vh;
+	background-color: #FFFFFF;
+    overflow: scroll;
+}
+.contactButton{
+	width:100%;
+	border-radius: 5px;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+ article {
+ 	float:left;
+ 	height:70vh;
+ 	width:70vw;
+ }
+ aside {
+ 	float:right;
+ 	height:70vh;
+ 	width:30vw;
+ }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

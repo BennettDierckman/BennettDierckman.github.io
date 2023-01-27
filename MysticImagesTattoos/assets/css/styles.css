@@ -1,0 +1,746 @@
+@import url('https://fonts.googleapis.com/css?family=Nosifer|Pirata+One|Sancreek|UnifrakturCook:700');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+/*font-family: 'Nosifer', cursive;
+font-family: 'Sancreek', cursive;
+font-family: 'Pirata One', cursive;
+font-family: 'UnifrakturCook', cursive;*/
+
+/* 
+FYI - Import statements, if any, go on the very first line
+Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+Most of your styles will go in this section
+*/
+.pierceCenter{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 90%;
+}
+.castleton email{
+	font-size: 11px;
+}
+.carousel-item img{
+	height: 275px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+}
+body{
+	color: #635C51;
+	color: white;
+}
+.navbar{
+	background-color: #372531;
+	margin-top: 60.5px;
+	height: 55px;
+	font-family: 'Pirata One', cursive;
+}
+.center2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 0;
+	padding-right: 0;
+}
+.locationSnip{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 210px;
+}
+.locationSnip p{
+	margin-bottom: 0;
+	font-size: 16px;
+}
+.navbar-collapse{
+	background-color: #372531;
+}
+/*#navbarSupportedContent{
+	width: 100%;
+}*/
+li .nav-item .dropdown{
+	padding: 0, 0, 0, 0;
+}
+.navbar li{
+	font-size: 22px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.fa{
+	color: #938274;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.fa:hover{
+	background-color: #DBC823;
+	color: #372531;
+}
+.nav-link{
+	text-align: center;
+}
+.nav-link:hover{
+	background-color: grey;
+	border: 2px solid #DBC823;
+	border-radius: 5px;
+}
+.dropdown-menu{
+	background-color: #373531;
+	border: 2px solid #DBC823;
+	width: 200px;
+	margin: 0 auto;
+}
+.dropdown-item{
+	color: #F6F6F6;
+}
+#navLogo{
+	height: 140px;
+	margin-left: 0;
+	z-index: 1000;
+	position: absolute;
+	top: -60px;
+}
+#topLogo{
+	height: 48px;
+	z-index: 1000;
+}
+#TopImgDiv{
+	position: fixed;
+	display: flex;
+	justify-content: flex-start;
+	left: 70px;
+	top: 7.5px;
+}
+#fullWidthTopNav{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 110px;
+	background-color: white;
+	z-index: 1000;
+}
+/*#AjPicDiv{
+	visibility: hidden;
+	height: 0;
+	width: 0;
+	background-color: rgba(0,0,0, .9);
+}
+#ajPic{
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}*/
+#ajPic{
+	visibility: visible;
+	width: 100%;
+	height: 870px;
+}
+#AjPicDiv{
+	width: 100%;
+	position: fixed;
+	top: 141.5px;
+	z-index: -10;
+	visibility: visible;
+}
+#LocationSlapPic{
+	width: 100%;
+	margin-top: 0;
+	height: 100%;
+	visibility: visible;
+	border-bottom: 5px solid #DBC823;
+}
+#topBuffer{
+	margin-top: 111.5px;
+	height: 34px;
+	background-color: white;
+	border-bottom: 5px solid #DBC823;
+
+}
+.location{
+	padding-right: 0;
+	padding-left: 0;
+}
+.locationRow figure{
+	display: flex;
+	margin: 0 auto 0;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgba(0,0,0,.5);
+	width: 360px;
+}
+.locationRow figure h4 {
+	color: white;
+	width: 100%;
+	background-color: #372531;
+	text-align: center;
+	font-size: 28px;
+	margin-bottom: 10px;
+	font-family: 'Pirata One', cursive;
+	background-color: ;
+	padding-top: 7px;
+	padding-bottom: 4px;
+}
+.castleton figure h4{
+	border-top: 5px solid #DBC823;
+}
+
+.locationRow {
+	border-bottom: 5px solid #DBC823;
+}
+.locationRow figure p {
+	color: white;
+	text-align:center;
+	margin-bottom: 15px;
+	margin-top: 5px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+}
+.locationRow figure h6 {
+	color: white;
+	text-decoration: underline;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	margin-bottom: 0;
+	font-size: 18px;
+}
+.pageTitle {
+	margin: auto auto;
+}
+#serif{
+	font-family: 'Oswald', sans-serif;
+	font-size: 13.5px;
+}
+.pageTitle h1{ position:relative;
+	text-align: center;
+	padding-top: 6px;
+	padding-bottom: 2px;
+	margin-bottom: 0;
+	background-color: white;
+	color: #372531;
+	font-size: 36px;
+	font-family: 'Pirata One', cursive;
+	border-bottom: 5px solid #DBC823;
+}
+.pageTitle h1 span{ position:absolute; top:-115.5px;}
+.storeInfoLeft{
+	padding-right: 2px;
+}
+.storeInfoRight{
+	padding-left: 2px;
+}
+#exampleTat {
+	display: flex;
+	justify-content: center;
+}
+#exampleTat img{
+	width: 50%;
+	height: 50%;
+	margin-bottom: 10px;
+}
+#examplePiercing img{
+	width: 100%;
+}
+.examplePiercingCol{
+	display: flex;
+	align-items: center;
+}
+.tattoos{
+	background-color: #635C51;
+	padding-right: 0;
+}
+.tatContent{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 90%;
+}
+.LEFT a {
+	color: white;
+	text-decoration: underline;
+}
+.RIGHT a {
+	color: white;
+	text-decoration: underline;
+}
+.pricingTitles{
+	color: white;
+	width: 100%;
+	background-color: #372531;
+	text-align: center;
+	font-size: 28px;
+	margin-bottom: 0;
+	font-family: 'Pirata One', cursive;
+	background-color: ;
+	padding-top: 7px;
+	padding-bottom: 4px;
+}
+.artistTitles{
+	color: white;
+	width: 100%;
+	background-color: #372531;
+	text-align: center;
+	font-size: 28px;
+	margin-bottom: 0;
+	font-family: 'Pirata One', cursive;
+	background-color: ;
+	padding-top: 7px;
+	padding-bottom: 4px;
+	border-top: 2px solid #DBC823;
+	border-bottom: 2px solid #DBC823;
+}
+#ulIntro {margin-bottom: 0;
+	padding-left: 10px;
+}
+.tattoos ul{
+	text-align: center;
+	list-style: none;
+	padding-left: 0;
+	padding-right: 25px;
+}	
+.piercings ul{
+	text-align: right;
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 10px;
+}
+.pricesRow p{
+	text-align: center;
+	margin-bottom: 5px;
+}
+.piercings .pricingTitles{
+	border-top: 5px solid #DBC823;
+}
+.piercings2 .pricingTitles{
+	border-top: 5px solid #DBC823;
+}
+.earPrices{
+	padding-right: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.pricesRow{
+	border-bottom: 5px solid #DBC823;
+	background-color: #635C51;
+}
+.bodyPrices ul{
+	text-align: center;
+	list-style: none;
+	padding-left: 0;
+}
+.ArtistsRow{
+	height: 725px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+#artistInfo{
+	width: 100%;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,.5);
+}
+.LEFT{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 2px solid #DBC823;
+}
+.RIGHT{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: rgba(99,99,99,.5);
+	border-bottom: 2px solid #DBC823;
+}
+
+.RJ{
+	background: url(../images/MrKimage/background.jpeg) 100%; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.BarryCraig{
+	background: url(../images/MrKimage/background.jpeg) 100%; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.adam{	background: url(../images/MrKimage/background.jpeg) 100%; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.jimmy{	background: url(../images/MrKimage/background.jpeg) 100%; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.elaina{	background: url(../images/Elaina/background.jpg) 100%; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.thumbnailPicutre img{
+	width: 250px;
+	height: 250px;
+}
+.thumbnailPicutre{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5px !important;
+}
+.thumbnailPicutre p{
+	margin-bottom: 0;
+	padding-bottom: 10px;
+}
+.thumbnailContent{
+	text-align: center;
+}
+
+.perfundo img{
+	height: 90px;
+}
+.pic{
+	display: flex;
+	justify-content: center;
+	padding-left: 0;
+	padding-right: 0;
+}
+.thumbailInfo{
+	padding-right: -30px;
+}
+.picRow{
+	padding-bottom: 15px;
+}
+.picRowTwo{
+	padding-bottom: 35px;
+}
+.meganInfo{
+	padding-top: 30px;
+}
+.picRowBottom{
+	padding-bottom: 0;
+}
+footer{
+	background-color: white;
+}
+footer h1{
+	position:relative;
+	text-align: center;
+	padding-top: 6px;
+	padding-bottom: 2px;
+	margin-bottom: 0;
+	background-color: white;
+	color: #372531;
+	font-size: 36px;
+	font-family: 'Pirata One', cursive;
+	border-bottom: 5px solid #DBC823;
+}
+.foot {
+	background-color: #372531;
+	height: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.foot .row {
+	height: 100px;
+}
+.foot p{
+	margin-bottom: 0px;
+}
+.foot h4{
+	margin-bottom: 3px;
+}
+
+.verticalCenter{
+	margin: auto auto;
+}
+
+.footleft{
+	padding-right: 0;
+	background-color: #372531;
+	height: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.footleft p{
+	margin-bottom: 4px;
+}
+.footright p{
+	margin-bottom: 4px;
+}
+.noblefoot .footright .fa{
+	float: left;
+	margin-bottom: 4px;
+}
+.noblefoot .footleft .fa{
+	float: right;
+	margin-bottom: 4px;
+}
+.footright{
+	padding-left: 0;
+	background-color: #372531;
+	height: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.email{
+	font-size: 16px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+#fullWidthTopNav{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 140px;
+	background-color: white;
+	z-index: 1000;
+}
+.navbar{
+	margin-top: 92px;
+}
+#navLogo{
+	height: 180px;
+	position: absolute;
+	top: -90px;
+}
+#topLogo{
+	height: 80px;
+}
+#TopImgDiv{
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	left: 130px;
+}
+#LocationSlapPic{
+	margin-top: 0;
+}
+#topBuffer{
+	margin-top: 141.5px;
+	height: 45px;
+}
+.pageTitle h1 span{ position:absolute; top:-146px;}
+.thumbnailPicutre{
+	padding-right: 0;
+}
+.email{
+	font-size: 16px;
+}
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+.navbar{
+	margin-top: 92px;
+}
+#navLogo{
+	margin-left: 25px;
+	position: absolute;
+	top: -90px;
+}
+#topLogo{
+	height: 90px;
+	width:90%;
+}
+#LocationSlapPic{
+	width: 100%;
+	height: 100%;
+	visibility: visible;
+}
+.pageTitle h1 span{ position:absolute; top:-146px;}
+.noblesville figure h4{
+	border-top: 5px solid #DBC823;
+}
+.locationRow figure h4{
+	margin-bottom: 20px ;
+}
+.locationRow{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: rgba(99,99,99,.5);
+}
+#ajPic{
+	visibility: visible;
+	width: 100%;
+	height: 870px;
+}
+#AjPicDiv{
+	width: 100%;
+	position: fixed;
+	top: 141.5px;
+	z-index: -10;
+	visibility: visible;
+}
+.locationRow figure p {
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+email {
+	font-size: 15px;
+}
+.piercings .pricingTitles{
+	border-top: none;
+}
+.piercings2 .pricingTitles{
+	border-top: none;
+}
+.piercings{
+	padding-left: 0;
+	padding-right: 0;
+}
+.piercings2{
+	padding-left: 0;
+}
+.piercings2 ul{
+	margin: 0 auto;
+}
+.piercings2 h4{
+	margin-bottom: 0;
+}
+.thumbnailPicutre img{
+	width: 250px;
+	height: 250px;
+}
+.left{
+	padding-right: 0;
+}
+.right{
+	padding-left: 0;
+}
+.thumbnailPicutre{
+	padding-right: 15px;
+}
+.foot1{
+	padding-right: 0;
+}
+.foot3{
+	padding-left: 0;
+}
+.email{
+	font-size: 14px;
+}
+footer p{
+	font-size: 18px;
+}
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+.navbar{
+	margin-top: 140px;
+}
+.navbar-nav{
+	margin-left: 150px;
+}
+#navLogo{
+	height: 250px;
+	margin-left: 25px;
+	z-index: 1000;
+	position: absolute;
+	top: -135px;
+}
+#topLogo{
+	height: 130px;
+	width:90%;
+}
+#TopImgDiv{
+	width: 90%;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	right: 0;
+	top: 7.7px;
+}
+#AjPicDiv{
+	position: fixed;
+	top: 195px;
+}
+#LocationSlapPic{
+	margin-top: 0;
+}
+#ajPic{
+	width: 100%;
+	height: 1000px;
+}
+#topBuffer{
+	margin-top: 190px;
+	padding-top: 65px;
+	height: 65px;
+}
+.pageTitle h1 span{ position:absolute; top:-194px;}
+.pageTitle h1{ 
+	font-size: 44px;
+	padding-top: 14px;
+}
+#examplePiercing img{
+	width: 80%;
+}
+.nav-link:hover{
+	background-color: grey;
+	border-radius: none;
+	border: none;
+}
+.thumbnailPicutre{
+	padding-right: 0;
+}
+.thumbnailPicutre img{
+	width: 200px;
+	height: 200px;
+}
+.email{
+	font-size: 18px;
+}
+footer p{
+	font-size: 22px;
+}
+.LEFT{
+	border-right: 1px solid #DBC823;
+}
+.RIGHT{
+	border-left: 1px solid #DBC823;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+.navbar{
+	margin-top: 140px;
+}
+#navLogo{
+	height: 250px;
+	position: absolute;
+	top: -135px;
+}
+.navbar-nav{
+	margin-left: 180px;
+}
+#TopImgDiv{
+	width: 82.5%;
+}
+.center2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+}
