@@ -11,6 +11,7 @@
         <link href="css/plugins/plugins.css" rel="stylesheet">
         <link href="css/style-personal-portfolio.css" rel="stylesheet">
         <link href="css/custom.css" rel="stylesheet">
+        <link href="css/timeline.css" rel="stylesheet">
     </head>    
 
     <body data-spy="scroll" data-offset="47" data-target="#navbarOffcanvas">
@@ -42,7 +43,7 @@
             <a href="javascript:void(0)" class="menu-btn"><i class="ti-menu"></i></a>
         </nav>
         <div id="home" class="fullscreen-hero bg-overlay bg-parallax" data-jarallax='{"speed": 0.2}'  style="z-index: 50 !important; height: 100vh !important;">
-            <div class="hero-content">
+            <div class="hero-content" style="overflow:hidden;">
                 <div class="bennettBackground d-lg-none"><img src="images/family.jpg" alt="photo of bennett" ></div>
                 <div class="hero-inner">
                     <div class="container">
@@ -165,7 +166,7 @@
                                 </div>
                                 <div class="col-12 col-lg-11 ml-auto mr-auto">
                                     <p class="mt-1 h4"><span class="bold">ColinKurtis Advertising</span></p>
-                                    <p class="mt-0 "><span class="bold" style="font-style:italic;">Lead Developer and System Administrator<br class="d-md-none">(August 2022 &mdash; January 2023)</span></p>
+                                    <p class="mt-0 "><span class="bold" style="font-style:italic;">Lead Developer and System Administrator<br class="d-md-none"> (August 2022 &mdash; January 2023)</span></p>
                                     <ul>
                                         <div class="row">
                                             <div class="col-12">
@@ -235,7 +236,7 @@
                                         </div>
                                     </ul>
                                 </div>
-                                <div class="col-12 col-lg-11 ml-auto mr-auto">
+                                <!-- <div class="col-12 col-lg-11 ml-auto mr-auto">
                                     <p class="mt-1 h4"><span class="bold">United Food Delicacies LLC</span></p>
                                     <p class="mt-0"><span class="bold" style="font-style:italic;">Website &amp; Web-Application Developer &nbsp;(March 2020 &mdash; January 2021)</span></p>
                                     <ul>
@@ -266,7 +267,7 @@
                                             </div>
                                         </div>
                                     </ul>
-                                </div>
+                                </div> -->
                                 <!-- <div class="col-12 col-lg-11 ml-auto mr-auto">
                                     <p class="mt-1"><span class="bold">SafeKeeping LLC </span><br class="d-md-none"><span class="bold" style="font-style:italic;">(June 2019 &mdash; July 2019)</span></p>
                                     <ul>
@@ -593,109 +594,350 @@
                 </div>
             </div>
         </div>
+
         <div class="pt50 pb20 bg-white bg-overlay" id="portfolio">
-            <div class="container">
+            <div class="container p-0">
                 <h2 class="text-center font700 text-uppercase h2 mb40 text-white">Additional Engagements</h2>
-                <div class="row">
-                    <!-- <div class="col-md-4 mb30">
-                        <a href="http://www.ufdelicacies.com/index.php" class="folio-card" target="_blank">
-                            <img src="images/UFD.png" alt="" class="img-fluid">
-                            <div class="folio-overlay">
-                                <div class="folio-content">
-                                    <h4>United Food Delicacies</h4>
-                                    <p>Bootstrap Website</p>
+                <div class="timeline">
+                    <div class="line"></div>
+
+                    <div class="section left mb-5">
+                        <div class="bead"></div>
+                        <div class="content">
+                            <div class="row mt-0">
+                                <div class="col-12 col-md-6 mb30">
+                                    <div class="row mr-md-0">
+                                        <div class="col-6 col-xl-6 ml-md-auto pr-0 pr-md-3 pl-md-0">
+                                            <a href="https://www.sokolcustomfoods.com/" class="folio-card mr-md-0" target="_blank">
+                                                <img src="images/sokol.png" alt="Sokol Logo" class="img-fluid">
+                                                <div class="folio-overlay">
+                                                    <div class="folio-content">
+                                                        <h4>Sokol Custom Foods</h4>
+                                                        <p>Craft CMS</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-6 col-xl-6 ml-md-auto mr-xl-auto mt-xl-0 pr-0 pr-md-3 pl-md-0">
+                                            <a href="https://www.nellsonllc.com/" class="folio-card ml-md-0" target="_blank">
+                                                <img src="images/nellson.png" alt="Nellson Logo" class="img-fluid">
+                                                <div class="folio-overlay">
+                                                    <div class="folio-content">
+                                                        <h4>Nellson LLC</h4>
+                                                        <p>Craft CMS</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-6 col-xl-6 ml-md-auto mr-xl-auto mt-3 pr-0 pr-md-3 pl-md-0">
+                                            <a href="https://bernerfoodandbeverage.com/" class="folio-card ml-md-0" target="_blank">
+                                                <img src="images/berner.png" alt="Berner Food and Beverage Logo" class="img-fluid">
+                                                <div class="folio-overlay">
+                                                    <div class="folio-content">
+                                                        <h4>Berner Food and Beverage</h4>
+                                                        <p>Craft CMS</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-6 col-xl-6 ml-md-auto mr-xl-auto mt-3 pr-0 pr-md-3 pl-md-0">
+                                            <a href="https://bbuds.com" class="folio-card ml-md-0" target="_blank">
+                                                <img src="images/butterBuds.png" alt="Butter Buds Logo" class="img-fluid">
+                                                <div class="folio-overlay">
+                                                    <div class="folio-content">
+                                                        <h4>Butter Buds</h4>
+                                                        <p>Craft CMS</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 mb30">
+                                    <div class="ml-md-3">
+                                        <h4>August 2022 - January 2023</h4>
+                                        <h2>Craft CMS Sites</h2>
+                                        <p>Modified and managed existing craft websites for clients. Saved Clients money by developing custom fields such that they don't need to purchase unnecessary plugins like "template guard" to password protect their pages. Addressed and fixed long outstanding contact form malfuctions to ensure the Clients are getting leads rather than frustrated visitors. <br>Butter Buds Password: Got Milk? </p>
+                                    </div>
                                 </div>
                             </div>
-                        </a>
-                    </div> -->
-                    <!-- <div class="col-md-4 mb30">
-                        <a href="https://vbma.biz/" target="_blank" class="folio-card">
-                            <img src="images/VBMA.png" alt="" class="img-fluid">
-                            <div class="folio-overlay">
-                                <div class="folio-content">
-                                    <h4>Veterinarian Business Management Association</h4>
-                                    <p>Web Application (2,500+ Active Users)</p>
+                        </div>
+                    </div>
+
+                    <div class="section right mt-4 mb-5">
+                        <div class="bead"></div>
+                        <div class="content">
+                            <div class="row right-row mt-0">
+                                <div class="col-12 col-md-6 mb30">
+                                    <div class="row ml-md-0">
+                                        <div class="col-6 col-md-10 col-lg-7 col-xl-6 mr-md-auto pr-0 ">
+                                            <a href="https://www.kemin.com/na/en-us/markets/human-nutrition/ssw-whole-body" class="folio-card mr-md-0" target="_blank">
+                                                <img src="images/wholeBodyTool.png" alt="KHN Whole Body Tool" class="img-fluid">
+                                                <div class="folio-overlay">
+                                                    <div class="folio-content">
+                                                        <h4>Whole Body Tool</h4>
+                                                        <p class="mb-0">"Pure CSS" Tool</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-6 col-md-10 col-lg-7 col-xl-6 ml-xl-auto mt-md-3 mt-xl-0 pr-0">
+                                            <a href="https://floridafood.com/meat-your-match/" class="folio-card ml-md-0" target="_blank">
+                                                <img src="images/meatYourMatch.png" alt="Meat Your Match Interactive Tool" class="img-fluid">
+                                                <div class="folio-overlay">
+                                                    <div class="folio-content">
+                                                        <h4>Meat Your Match</h4>
+                                                        <p class="mb-0">Custom Javascript Tool</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 mb30">
+                                    <div class="mr-md-3">
+                                        <h4>August - September 2022</h4>
+                                        <h2>Wordpress Tools</h2>
+                                        <p>Created interactive tools for Florida Food Products and Kemin Health &amp; Nutrition. Each tool helps clients and potential leads find the products that best suit their needs in an intuitive and captivating way.</p>
+                                    </div>
                                 </div>
                             </div>
-                        </a>
-                    </div> -->
-                    <div class="col-md-4 mb30">
-                        <a href="https://BennettDierckman.github.io/GoodFeatherConsulting/" class="folio-card" target="_blank">
-                            <img src="images/gfc.png" alt="" class="img-fluid">
-                            <div class="folio-overlay">
-                                <div class="folio-content">
-                                    <h4>GoodFeather Consulting</h4>
-                                    <p>Bootstrap Website and Web Application</p>    
+                        </div>
+                    </div>
+
+                    <div class="section left mt-4 mb-5">
+                        <div class="bead"></div>
+                        <div class="content">
+                            <div class="row mt-0">
+                                <div class="col-12 col-md-6 mb30">
+                                    <div class="row mr-md-3">
+                                        <div class="col-10 col-md-12 ml-md-auto pr-md-0">
+                                            <a href="http://www.ufdelicacies.com/index.php" class="folio-card ml-md-auto mr-md-0" target="_blank">
+                                                <img src="images/UFD.png" alt="" class="img-fluid">
+                                                <div class="folio-overlay">
+                                                    <div class="folio-content">
+                                                        <h4>United Food Delicacies</h4>
+                                                        <p>Bootstrap Website</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 mb30">
+                                    <div class="ml-md-3">
+                                        <h4>Pandemic Project</h4>
+                                        <h2>United Food Delicacies</h2>
+                                        <p>Created a digital store front for an Bay Area International Food Distribution Warehouse to help adjust to pandemic times. Local store owners needed to safely view options and place orders without visiting the warehouse. To satisfy this need I created a website with an acompaning custom content management stystem for adding/removing items from site and managing orders and leaders</p>
+                                    </div>
                                 </div>
                             </div>
-                        </a>
-                    </div><!--/col-->
-                    <div class="col-md-4 mb30">
-                        <a href="https://BennettDierckman.github.io/HowsMom/SafeKeepingInstall/" class="folio-card" target="_blank">
-                            <img src="images/safeKeepingInstall.png" alt="" class="img-fluid">
-                            <div class="folio-overlay">
-                                <div class="folio-content">
-                                    <h4>Install SafeKeeping</h4>
-                                    <p>Bootstrap Website</p>
+                        </div>
+                    </div>
+
+                    <div class="section right mt-4 mb-5">
+                        <div class="bead"></div>
+                        <div class="content">
+                            <div class="row right-row mt-0">
+                                <div class="col-12 col-md-6 mb30">
+                                    <div class="row ml-md-0">
+                                        <div class="col-6 col-md-10 col-lg-7 col-xl-6 mr-md-auto pr-0 ">
+                                            <a href="https://BennettDierckman.github.io/HowsMom/SafeKeepingStartup/" class="folio-card mr-md-0" target="_blank">
+                                                <img src="images/safekeepingCommunity.png" alt="SakeKeeping Community Logo" class="img-fluid">
+                                                <div class="folio-overlay">
+                                                    <div class="folio-content">
+                                                        <h4>SafeKeeping Home</h4>
+                                                        <p class="mb-0">Bootstrap Website</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-6 col-md-10 col-lg-7 col-xl-6 ml-xl-auto mt-md-3 mt-xl-0 pr-0">
+                                            <a href="https://BennettDierckman.github.io/HowsMom/SafeKeepingInstall/" class="folio-card ml-md-0" target="_blank">
+                                                <img src="images/safeKeepingInstall.png" alt="SafeKeeping Community Logo" class="img-fluid">
+                                                <div class="folio-overlay">
+                                                    <div class="folio-content">
+                                                        <h4>Install SafeKeeping</h4>
+                                                        <p class="mb-0">Bootstrap Website</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 mb30">
+                                    <div class="mr-md-3">
+                                        <h4>Summer - Fall 2019</h4>
+                                        <h2>SafeKeeping Landing Pages</h2>
+                                        <p>Created simple inviting landing page designs that demonstrate where and how to download the SafeKeeping app, the app's functionalities, and frequently asked questions.</p>
+                                    </div>
                                 </div>
                             </div>
-                        </a>
-                    </div><!--/col-->
-                    <div class="col-md-4 mb30">
-                        <a href="https://BennettDierckman.github.io/HowsMom/SafeKeepingStartup/" class="folio-card" target="_blank">
-                            <img src="images/safekeepingCommunity.png" alt="" class="img-fluid">
-                            <div class="folio-overlay">
-                                <div class="folio-content">
-                                    <h4>SafeKeeping Community</h4>
-                                    <p>Bootstrap Website</p>
+                        </div>
+                    </div>
+
+                    <div class="section left mt-4 mb-5">
+                        <div class="bead"></div>
+                        <div class="content">
+                            <div class="row mt-0">
+                                <div class="col-12 col-md-6 mb30">
+                                    <div class="row mr-md-0">
+                                        <div class="col-6 col-md-10 col-lg-7 col-xl-6 ml-md-auto pr-0 pr-md-3 pl-md-0">
+                                            <a href="https://BennettDierckman.github.io/DashApp/" class="folio-card mr-md-0" target="_blank">
+                                                <img src="images/dashApp.png" alt="Dash App Logo" class="img-fluid">
+                                                <div class="folio-overlay">
+                                                    <div class="folio-content">
+                                                        <h4>DashApp.Life</h4>
+                                                        <p>Bootstrap Website</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-6 col-md-10 col-lg-7 col-xl-6 ml-md-auto mr-xl-auto mt-md-3 mt-xl-0 pr-0 pr-md-3 pl-md-0">
+                                            <a href="https://BennettDierckman.github.io/DashApp/" class="folio-card ml-md-0" target="_blank">
+                                                <img src="images/elevenTwentyEight.png" alt="Eleven Twenty Eight Logo" class="img-fluid">
+                                                <div class="folio-overlay">
+                                                    <div class="folio-content">
+                                                        <h4>11:28 Ministries</h4>
+                                                        <p>Bootstrap Website</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 mb30">
+                                    <div class="ml-md-3">
+                                        <h4>2018 &amp; 2019</h4>
+                                        <h2>Other Landing Page Designs</h2>
+                                        <p>DashApp.life and 11:28 Ministries are landing page projects for some of GoodFeather Consulting's members. The first, a wellness management startup concept, the latter, a landing page for a Ministry Vacation Programm aimed to help faith leaders find locations they can go to refresh and rejuvenate.</p>
+                                    </div>
                                 </div>
                             </div>
-                        </a>
-                    </div><!--/col-->
-                    <div class="col-md-4 mb30">
-                        <a href="https://BennettDierckman.github.io/DashApp/" class="folio-card" target="_blank">
-                            <img src="images/dashApp.png" alt="" class="img-fluid">
-                            <div class="folio-overlay">
-                                <div class="folio-content">
-                                    <h4>DashApp.Life</h4>
-                                    <p>Bootstrap Website</p>
+                        </div>
+                    </div>
+
+                    <div class="section right mt-4 mb-5">
+                        <div class="bead"></div>
+                        <div class="content">
+                            <div class="row right-row mt-0">
+                                <div class="col-12 col-md-6 mb30">
+                                    <div class="row ml-md-3">
+                                        <div class="col-10 col-md-12 mr-md-auto pl-md-0">
+                                            <a href="https://BennettDierckman.github.io/GoodFeatherConsulting/" class="folio-card ml-md-0" target="_blank">
+                                                <img src="images/gfc.png" alt="Good Feather Consulting" class="img-fluid">
+                                                <div class="folio-overlay">
+                                                    <div class="folio-content">
+                                                        <h4>Good Feather Consulting</h4>
+                                                        <p class="mb-0">Bootstrap Website and Custom CMS</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 mb30">
+                                    <div class="mr-md-3">
+                                        <h4>Spring 2019 - Summer 2019</h4>
+                                        <h2>GoodFeather Consulting</h2>
+                                        <p>A B2B Services focused website with an accompaning Custom CMS for an ECM Consulting Firm with members located throught the US.<br><a href="">View CMS Demo</a></p>
+                                    </div>
                                 </div>
                             </div>
-                        </a>
-                    </div><!--/col-->
-                    <div class="col-md-4 mb30">
-                        <a href="https://www.alexandersons.com/" class="folio-card" target="_blank">
-                            <img src="images/alexanderAndSons.jpeg" alt="" class="img-fluid" target="_blank">
-                            <div class="folio-overlay">
-                                <div class="folio-content">
-                                    <h4>Alexander &amp; Sons</h4>
-                                    <p>Bootstrap Website</p>
+                        </div>
+                    </div>
+
+                    <div class="section left mt-4 mb-5">
+                        <div class="bead"></div>
+                        <div class="content">
+                            <div class="row mt-0">
+                                <div class="col-12 col-md-6 mb30">
+                                    <div class="row mr-md-3">
+                                        <div class="col-10 col-md-12 ml-md-auto pr-md-0">
+                                            <a href="https://BennettDierckman.github.io/ShieldIO/" class="folio-card ml-md-auto mr-md-0" target="_blank">
+                                                <img src="images/ShieldIO.png" alt="ShieldIO Logo" class="img-fluid">
+                                                <div class="folio-overlay">
+                                                    <div class="folio-content">
+                                                        <h4>ShieldIO</h4>
+                                                        <p>Bootstrap Website</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 mb30">
+                                    <div class="ml-md-3">
+                                        <h4>Summer 2018 - Spring 2019</h4>
+                                        <h2>ShieldIO</h2>
+                                        <p>Target Demographic: Investors and Company Stakeholders<br>Helped determine site requirements, gather assets, and developed a responsive site with custom tools and widgets throughout. </p>
+                                    </div>
                                 </div>
                             </div>
-                        </a>
-                    </div><!--/col-->
-                    <div class="col-md-4 mb30 mx-auto">
-                        <a href="http://www.donerightinc90.com/" class="folio-card" target="_blank">
-                            <img src="images/doneRight90.jpeg" alt="" class="img-fluid">
-                            <div class="folio-overlay">
-                                <div class="folio-content">
-                                    <h4>Done Right 90&rsquo; Inc.</h4>
-                                    <p>Bootstrap Website</p>
+                        </div>
+                    </div>
+                    <div class="section right mt-4 mb-5">
+                        <div class="bead"></div>
+                        <div class="content">
+                            <div class="row right-row mt-0">
+                                <div class="col-12 col-md-6 mb30">
+                                    <div class="row ml-md-0">
+                                        <div class="col-6 col-lg-6 mr-md-auto pr-0">
+                                            <a href="http://www.donerightinc90.com/" class="folio-card mr-md-0" target="_blank">
+                                                <img src="images/doneRight90.jpeg" alt="Done Right 90 inc. Logo" class="img-fluid">
+                                                <div class="folio-overlay">
+                                                    <div class="folio-content">
+                                                        <h4>Done Right 90&rsquo; Inc.</h4>
+                                                        <p>Bootstrap Website</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-6 col-lg-6 ml-xl-auto mt-lg-0 pr-0">
+                                            <a href="https://www.alexandersons.com/" class="folio-card ml-md-0" target="_blank">
+                                                <img src="images/alexanderAndSons.jpeg" alt="Alexander and Sons Logo" class="img-fluid" target="_blank">
+                                                <div class="folio-overlay">
+                                                    <div class="folio-content">
+                                                        <h4>Alexander &amp; Sons</h4>
+                                                        <p>Bootstrap Website</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-6 col-lg-6 ml-xl-auto mt-3 pr-0">
+                                            <a href="https://www.mysticimagestattoos.com/" class="folio-card ml-md-0" target="_blank">
+                                                <img src="images/mysticImage.jpeg" alt="Mystic Images Tattoos" class="img-fluid" target="_blank">
+                                                <div class="folio-overlay">
+                                                    <div class="folio-content">
+                                                        <h4>Mystic Images Tattoo</h4>
+                                                        <p>Bootstrap Website</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-6 col-lg-6 ml-xl-auto mt-3 pr-0">
+                                            <a href="https://www.myvbma.biz/" class="folio-card ml-md-0" target="_blank">
+                                                <img src="images/VBMA.png" alt="Veterinary Business Management Association" class="img-fluid" target="_blank" style="height: 50%; width:100%">
+                                                <div class="folio-overlay">
+                                                    <div class="folio-content">
+                                                        <h4>myVBMA.biz</h4>
+                                                        <p>Information System</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 mb30">
+                                    <div class="mr-md-3">
+                                        <h4>Fall 2017 - Summer 2018</h4>
+                                        <h2>Day 1 Clients</h2>
+                                        <p>A Tattoo Parlor site with an artist gallery, home improvement sites, and an Information System still in use at 36 American Universities.</p>
+                                    </div>
                                 </div>
                             </div>
-                        </a>
-                    </div><!--/col-->
-                    <!-- <div class="col-md-4 mb30 mx-auto">
-                        <a href="https://www.youtube.com/watch?v=FO-EpAkmnuA" class="folio-card" target="_blank">
-                            <img src="images/clutchTunes.jpeg" alt="" class="img-fluid">
-                            <div class="folio-overlay">
-                                <div class="folio-content">
-                                    <h4>ClutchTunes Android Application</h4>
-                                    <p>Android Application</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div> -->
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -731,6 +973,59 @@
         <!--back to top-->
         <a href="#" class="back-to-top hidden-xs-down" id="back-to-top"><i class="ti-angle-up"></i></a>
         <!-- jQuery first, then Tether, then Bootstrap JS. -->
+        <script type="text/javascript">
+            function qs(selector, all = false) {
+              return all
+                ? document.querySelectorAll(selector)
+                : document.querySelector(selector);
+            }
+
+            const sections = qs(".section", true);
+            const timeline = qs(".timeline");
+            const line = qs(".line");
+            line.style.bottom = `calc(100% - 20px)`;
+            let prevScrollY = window.scrollY;
+            let up, down;
+            let full = false;
+            let set = 0;
+            const targetY = window.innerHeight * 0.8;
+
+            function scrollHandler(e) {
+              const { scrollY } = window;
+              up = scrollY < prevScrollY;
+              down = !up;
+              const timelineRect = timeline.getBoundingClientRect();
+              const lineRect = line.getBoundingClientRect(); // const lineHeight = lineRect.bottom - lineRect.top;
+
+              const dist = targetY - timelineRect.top;
+              console.log(dist);
+
+              if (down && !full) {
+                set = Math.max(set, dist);
+                line.style.bottom = `calc(100% - ${set}px)`;
+              }
+
+              if (dist > timeline.offsetHeight + 50 && !full) {
+                full = true;
+                line.style.bottom = `-50px`;
+              }
+
+              sections.forEach((item) => {
+                // console.log(item);
+                const rect = item.getBoundingClientRect(); //     console.log(rect);
+
+                if (rect.top + item.offsetHeight / 5 < targetY) {
+                  item.classList.add("show-me");
+                }
+              }); // console.log(up, down);
+
+              prevScrollY = window.scrollY;
+            }
+
+            scrollHandler();
+            line.style.display = "block";
+            window.addEventListener("scroll", scrollHandler);
+        </script>
         <script src="js/plugins/plugins.js"></script> 
         <script src="js/personal.custom.js"></script>
     </body>
