@@ -79,7 +79,10 @@ h1 {
 .folio-card{
   box-shadow: rgb(0 0 0 / 25%) 0px 14px 28px, rgb(0 0 0 / 22%) 0px 10px 10px;
 }
-
+.timeline p{
+  font-size:120%;
+  font-weight:400;
+}
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
