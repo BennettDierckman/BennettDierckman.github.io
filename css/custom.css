@@ -52,6 +52,16 @@ ul ul{
     width: 100%;
     vertical-align: bottom !important;
 }
+.blueBtn{
+	border: 2px solid #A9AAAA;
+    background-color: #A9AAAA !important;
+    color: #FFFFFF !important;
+}
+.greyBtn{
+	border: 2px solid #34495E;
+    background-color: #34495E !important;
+    color: #FFFFFF !important;
+}
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
 
