@@ -95,16 +95,16 @@ ul ul{
 	display:flex;
 	align-items:center;
 	padding-left:2.5rem;
-	border-top-left-radius: 50%;
-	border-bottom-left-radius: 50%;
+/*	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%;*/
 }
 .familyPhoto{
 	width: 50%;
 	height: 100%;
 }
 .familyPhoto img{
-	border-top-right-radius: 50%;
-	border-bottom-right-radius: 50%;		
+	/*border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;		*/
 }
 .aboutBennettP{
   font-weight: normal;
