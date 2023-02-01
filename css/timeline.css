@@ -82,10 +82,54 @@ h1 {
 .timeline p{
   font-size:120%;
   font-weight:400;
+  margin-bottom:0;
+}
+
+/*Beads*/
+#day1Bead{
+  top: 292px !important;
+}
+#gfcShieldBead{
+  top: 184px !important;
+}
+#landingPagesBead{
+  top: 300px !important;
+}
+#pandemicBead{
+  top: 250px !important;
+}
+#wordpressBead{
+  top: 185px !important;
+}
+#craftBead{
+  top: 299px !important;
+}
+
+.folio-card:hover .folio-overlay {
+    opacity: 0;
+    visibility: hidden !important
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-
+  /*Beads*/
+  #day1Bead{
+    top: 67% !important;
+  }
+  #gfcShieldBead{
+    top: 46% !important;
+  }
+  #landingPagesBead{
+    top: 64.5% !important;
+  }
+  #pandemicBead{
+    top: 54.5% !important;
+  }
+  #wordpressBead{
+    top: 51.5% !important;
+  }
+  #craftBead{
+    top: 54% !important;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -116,14 +160,73 @@ h1 {
   .right-row {
     flex-direction: row-reverse;
   }
+  /*Beads*/
+  #day1Bead{
+    top: 22% !important;
+  }
+  #gfcShieldBead{
+    top: 15% !important;
+  }
+  #landingPagesBead{
+    top: 17.5% !important;
+  }
+  #pandemicBead{
+    top: 13% !important;
+  }
+  #wordpressBead{
+    top: 17.5% !important;
+  }
+  #craftBead{
+    top: 13% !important;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
+  /*Beads*/
+  #day1Bead{
+    top: 20% !important;
+  }
+  #gfcShieldBead{
+    top: 16% !important;
+  }
+  #landingPagesBead{
+    top: 19.5% !important;
+  }
+  #pandemicBead{
+    top: 17% !important;
+  }
+  #wordpressBead{
+    top: 17.5% !important;
+  }
+  #craftBead{
+    top: 15% !important;
+  }
+  .folio-card:hover .folio-overlay {
+    opacity: 1;
+    visibility: visible !important;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
+  /*Beads*/
+  #day1Bead{
+    top: 17% !important;
+  }
+  #gfcShieldBead{
+    top: 20% !important;
+  }
+  #landingPagesBead{
+    top: 16.5% !important;
+  }
+  #pandemicBead{
+    top: 18% !important;
+  }
+  #wordpressBead{
+    top: 23% !important;
+  }
+  #craftBead{
+    top: 16.5% !important;
+  }
 }
