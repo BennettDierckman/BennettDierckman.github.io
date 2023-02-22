@@ -63,8 +63,22 @@ ul ul{
     color: #FFFFFF !important;
 }
 /*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 475px) { 
+	 .bennettBackground{
+		margin-left: -5%;
+	}
+}
+/*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
 
+}
+@media (min-width: 600px) { 
+	 .bennettBackground{
+		width:100vw;
+		display:flex;
+		margin: 0 auto;
+		justify-content: center;
+	}
 }
 
 /*// Medium devices (tablets, 768px and up)*/
@@ -80,9 +94,7 @@ ul ul{
 	}
 }
 @media (min-width: 935px) {
-	.bennettBackground img{
-		width: 100vw !important;
-	}
+
 }
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
