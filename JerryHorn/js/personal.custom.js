@@ -57,7 +57,7 @@ $(function () {
 
     //typed text
      $(".typed").typed({
-        strings: ["Jerry Horn", "Savy &amp; Seasoned", "Connected &amp; Philanthropic", "Friendly &amp; Transparent", "Available for hire."],
+        strings: ["Jerry Horn", "Savvy &amp; Seasoned", "Connected &amp; Philanthropic", "Friendly &amp; Transparent", "Available for hire."],
         typeSpeed: 50,
         backSpeed: 10,
         backDelay: 2000,
