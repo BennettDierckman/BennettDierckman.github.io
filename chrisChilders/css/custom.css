@@ -1,0 +1,135 @@
+/*// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap*/
+.bold{
+	font-weight: bold;
+}
+.resume h4{
+	text-decoration: underline;
+	margin-bottom: 3px;
+	font-weight:bold;
+	font-size: 120%;
+}
+
+ul{
+	padding-left: 25px;
+}
+ul ul{
+	padding-left: 20px !important;
+}
+
+#home{
+	/*background-image: url("../images/family.jpg"); 
+	-webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;*/
+      
+      /* Location of the image */
+  /*background-image: url("../images/family.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;*/
+}
+
+.bennettBackground{
+	height: 100vh;
+	position:absolute;
+	margin-left: -18%;
+	z-index:0!important;
+}
+
+.bennettBackground img{
+	max-height: 100%
+}
+
+.aboutBennettP{
+  font-weight: bold !important;
+}
+.fullscreen-hero .hero-content .hero-inner{
+	display: table-cell;
+    width: 100%;
+    vertical-align: bottom !important;
+}
+.blueBtn{
+	border: 2px solid #A9AAAA;
+    background-color: #A9AAAA !important;
+    color: #FFFFFF !important;
+}
+.greyBtn{
+	border: 2px solid #34495E;
+    background-color: #34495E !important;
+    color: #FFFFFF !important;
+}
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 475px) { 
+	 .bennettBackground{
+		margin-left: -5%;
+	}
+}
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+
+}
+@media (min-width: 600px) { 
+	 .bennettBackground{
+		width:100vw;
+		display:flex;
+		margin: 0 auto;
+		justify-content: center;
+	}
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.aboutBennettP{
+	  font-size: 115%;
+	}
+	.bennettBackground{
+	height: 100vh;
+	position:absolute;
+	margin: 0 0 0 0;
+	z-index:0!important;
+	}
+}
+@media (min-width: 935px) {
+
+}
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+#home{
+	background-image: none;
+	background-color:#F2F3F4;
+}
+.leftSide{
+	background-color:#A9AAAA;
+	display:flex;
+	align-items:center;
+	padding-left:2.5rem;
+/*	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%;*/
+}
+.familyPhoto{
+	width: 50%;
+	height: 100%;
+}
+.familyPhoto img{
+	/*border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;		*/
+}
+.aboutBennettP{
+  font-weight: normal;
+  font-size:90%;
+}
+.fullscreen-hero .hero-content .hero-inner{
+	display: table-cell;
+    width: 100%;
+    vertical-align: middle !important;
+}
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
