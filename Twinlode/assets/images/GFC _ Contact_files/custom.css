@@ -1,0 +1,232 @@
+
+.d-flex-end{
+	display:flex;
+	justify-content: flex-end;
+}
+
+.navigation .navbar-brand {
+  position: absolute;
+  left: 0;
+  top: -46px;
+  height: 125px;
+  border-radius: 4px;
+  width: 200px;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+  z-index: 9;
+}
+
+nav .navbar .navbar-expand-lg{
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.navigation .navbar-brand img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 991px) {
+  .navigation .navbar-brand {
+    position: relative;
+    height: unset;
+    width: unset;
+    box-shadow: none;
+    top: 0px;
+    background: none;
+  }
+  .navigation .navbar-brand img {
+    height: 50px;
+    width: auto;
+      transform: translateY(-0%);
+  }
+}
+
+.dropdownWide{
+	min-width: 230px !important;
+}
+
+.backgroundFixed1{
+    background: url("../images/blueBack.jpg") no-repeat top center fixed; 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    top: 150px;
+    height: 100%;
+    margin-top : -80px;
+ 	margin-bottom: 5%;
+}
+.backgroundFixed2{
+    background: url("../images/blueBack.jpg") no-repeat top center fixed; 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    top: 80px;
+    height: 100%;
+    margin-top : -80px;
+}
+.d-flex-deadCenter{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.d-flex-alignCenter{
+	display: flex;
+	align-items: center;
+}
+.d-flex-end-sometimes{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer{
+	margin-top: 150px !important;
+}
+.sometimesBlue{
+	padding-bottom: 10px;
+  padding-top: 10px;
+}
+.goodConsultingPic{
+	height: 230px;
+}
+.whyGoodFeather{
+	margin-top: 33%;
+}
+.theBoys{
+	margin-top: -10%;
+}
+.flexslider p{
+  width: 85% !important;
+}
+
+.serviceBubble{
+  height: 100%;
+  position: absolute;
+  left: -25%;
+  padding-left: 25%;
+  padding-right: 10px;
+  z-index: 0;
+  width: 120%;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-around;
+}
+.wide-container{
+  width: 90% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sideArticleImage{
+  height: 200px;
+}
+.vdiPic{
+  height: 300px;
+}
+.partnerLogo{
+  width: 65%;
+  margin: 10% auto;
+  box-shadow: 5px 8px rgba(99,99,99, .4);
+}
+.partnerLogoRect{
+  width: 85%;
+  margin: 5% auto;
+  box-shadow: 5px 8px rgba(99,99,99, .4);
+
+}
+.partnerLogo:hover{
+  box-shadow:none;
+}
+.partnerLogoRect:hover{
+  box-shadow: none;
+}
+.client-logo-slider .slick-track {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.goodFeatherServicesHeading{
+  font-size: 4.25rem;
+}
+@media (min-width: 576px) { 
+	.goodConsultingPic{
+		height: 225px;
+	}
+	.whyGoodFeather{
+		margin-top: 20%;
+	}
+	.theBoys{
+		margin-top: -5%;
+	}
+  .wide-container{
+    width: 92% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .serviceBubble{
+    padding-right:0;
+  }
+  .customContainer{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+	.whyGoodFeather{
+		margin-top: 10%;
+	}
+  .theBoys{
+    margin-top: 10px;
+  }
+  .squareServiceBubble{
+  position: absolute;
+  top: -50px;
+  padding: 55px 0 0 0;
+  height:155px;
+  width: 90%;
+  }
+  .serviceButton{
+    width: 100%;
+    margin-top: 20px !important ;
+  }
+  .sideArticleImage{
+    height: 150px;
+  }
+  .vdiPic{
+    height:350px;
+  }
+  .customContainer{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .d-flex-end-sometimes{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .vdiPic{
+    height: 400px;
+  }
+  .customContainer{
+    width: 70%;
+  }
+}
+
+@media (min-width: 1200px) {
+	.theBoys{
+		width: 70%;
+	}
+  .customContainer{
+    width: 100%;
+  }
+}
+
+
+
+/* CLIENT LOGO SLIDER */
+/* Slider */
